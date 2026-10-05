@@ -15,3 +15,6 @@ app/android/local.properties
 *.keystore
 key.properties
 .env
+# Python
+__pycache__/
+*.pyc
