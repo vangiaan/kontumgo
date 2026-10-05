@@ -66,5 +66,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Kon Tum Go dùng máy ảnh khi bạn chụp ảnh địa điểm để chia sẻ với du khách khác.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Kon Tum Go mở thư viện ảnh khi bạn chọn ảnh địa điểm để chia sẻ với du khách khác.</string>
 </dict>
 </plist>

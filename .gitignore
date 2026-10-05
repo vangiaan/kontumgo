@@ -18,3 +18,7 @@ key.properties
 # Python
 __pycache__/
 *.pyc
+
+# May chu anh: cau hinh that (mat khau trang quan tri)
+may_chu/cau_hinh.json
+.pytest_cache/

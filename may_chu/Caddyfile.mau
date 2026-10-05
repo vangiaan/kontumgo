@@ -1,0 +1,8 @@
+# Thay anh.ten-mien-cua-ban.vn bằng tên miền thật (bản ghi A trỏ về IP VPS). Caddy tự xin và gia hạn chứng chỉ HTTPS.
+anh.ten-mien-cua-ban.vn {
+	request_body {
+		max_size 16MB
+	}
+	reverse_proxy 127.0.0.1:8100
+	encode gzip
+}

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import '../cong_dong.dart';
 import '../du_lieu.dart';
 import '../giao_dien.dart';
 import 'trang_chu.dart';
@@ -135,6 +136,7 @@ class ChiTiet extends StatelessWidget {
             ],
           ]),
         ),
+        if (CongDong.batDuoc) MucAnhCongDong(diaDiem: d.id),
         if (gan.isNotEmpty) ...[
           const TieuDeMuc('Gần đây'),
           SizedBox(
