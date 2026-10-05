@@ -1,0 +1,17 @@
+# Ban build (apk, web...) - tao lai duoc tu ma nguon
+ban_build/
+
+# Flutter / Android Studio - file tu sinh
+app/.dart_tool/
+app/build/
+app/.idea/
+app/*.iml
+app/ios/Flutter/ephemeral/
+app/android/.gradle/
+app/android/local.properties
+
+# Khoa ky / bi mat - KHONG BAO GIO dua len
+*.jks
+*.keystore
+key.properties
+.env

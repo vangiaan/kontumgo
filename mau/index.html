@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kon Tum Go — bản mẫu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --suong: #f4f1ea;      /* nền: sương sớm */
+    --giay: #fffdf8;       /* mặt thẻ */
+    --thong: #1f4d3a;      /* xanh thông Măng Đen */
+    --thong-nhat: #dfe9e1;
+    --bazan: #b5472a;      /* đất đỏ bazan */
+    --nang: #e0a526;       /* nắng cao nguyên */
+    --muc: #1c2620;        /* chữ chính */
+    --xam: #66706a;        /* chữ phụ */
+    --vien: #e2ddd0;
+  }
+  * { box-sizing: border-box; margin: 0; }
+  body { font-family: 'Be Vietnam Pro', system-ui, sans-serif; background: #d9d4c7; color: var(--muc); min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 20px 12px 40px; -webkit-font-smoothing: antialiased; }
+  .ghi-chu { max-width: 390px; font-size: 13px; color: #4b5650; margin-bottom: 14px; text-align: center; line-height: 1.5; }
+  .may { width: 100%; max-width: 390px; height: 800px; max-height: calc(100vh - 110px); min-height: 560px; background: var(--suong); border-radius: 34px; border: 8px solid #17201b; overflow: hidden; display: flex; flex-direction: column; box-shadow: 0 24px 60px rgba(28, 38, 32, .35); position: relative; }
+  .man { flex: 1; overflow-y: auto; display: none; scrollbar-width: none; }
+  .man::-webkit-scrollbar { display: none; }
+  .man.hien { display: block; }
+  button { font: inherit; color: inherit; cursor: pointer; border: 0; background: none; }
+  button:focus-visible, a:focus-visible { outline: 2px solid var(--bazan); outline-offset: 2px; }
+
+  /* Dải thổ cẩm: hoa văn hình thoi, dấu hiệu nhận diện của app */
+  .tho-cam { height: 10px; background:
+    linear-gradient(135deg, var(--bazan) 25%, transparent 25%) -5px 0 / 10px 10px,
+    linear-gradient(225deg, var(--bazan) 25%, transparent 25%) -5px 0 / 10px 10px,
+    linear-gradient(315deg, var(--nang) 25%, transparent 25%) 0 0 / 10px 10px,
+    linear-gradient(45deg, var(--nang) 25%, var(--thong) 25%) 0 0 / 10px 10px; }
+
+  /* ── TRANG CHỦ ── */
+  .dau { background: var(--thong); color: #f6f2e6; padding: 22px 20px 26px; position: relative; overflow: hidden; }
+  .dau svg.nui { position: absolute; left: 0; right: 0; bottom: -1px; width: 100%; height: 70px; opacity: .22; }
+  .logo { display: flex; align-items: center; gap: 10px; position: relative; }
+  .logo svg { width: 34px; height: 34px; flex: none; }
+  .logo b { font-size: 21px; font-weight: 800; letter-spacing: -.01em; }
+  .logo b i { font-style: normal; color: var(--nang); }
+  .chao { position: relative; margin-top: 22px; font-size: 27px; line-height: 1.2; font-weight: 800; letter-spacing: -.015em; text-wrap: balance; }
+  .chao-phu { position: relative; margin-top: 8px; font-size: 14px; line-height: 1.55; color: #cfdcd2; }
+  .tim { position: relative; margin-top: 18px; display: flex; align-items: center; gap: 10px; background: var(--giay); border-radius: 12px; padding: 0 14px; height: 48px; color: var(--xam); font-size: 14.5px; width: 100%; text-align: left; }
+  .tim svg { width: 18px; height: 18px; flex: none; }
+
+  .khoi { padding: 22px 20px 0; }
+  .khoi h2 { font-size: 17px; font-weight: 800; margin-bottom: 12px; display: flex; justify-content: space-between; align-items: baseline; }
+  .khoi h2 button { font-size: 13px; font-weight: 600; color: var(--bazan); padding: 6px 0 6px 10px; }
+
+  .nhom { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+  .nhom button { display: flex; flex-direction: column; align-items: center; gap: 7px; font-size: 12px; font-weight: 600; line-height: 1.25; text-align: center; padding: 4px 0; }
+  .nhom span { width: 54px; height: 54px; border-radius: 16px; background: var(--thong-nhat); display: grid; place-items: center; color: var(--thong); }
+  .nhom svg { width: 26px; height: 26px; }
+
+  .cuon { display: flex; gap: 12px; overflow-x: auto; margin: 0 -20px; padding: 0 20px 4px; scrollbar-width: none; }
+  .cuon::-webkit-scrollbar { display: none; }
+  .the-lon { flex: none; width: 216px; background: var(--giay); border: 1px solid var(--vien); border-radius: 14px; overflow: hidden; text-align: left; }
+  .anh { height: 124px; position: relative; display: flex; align-items: flex-end; padding: 10px; }
+  .anh em { font-style: normal; font-size: 11px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; background: rgba(255, 253, 248, .92); color: var(--muc); padding: 4px 8px; border-radius: 6px; }
+  .a1 { background: linear-gradient(160deg, #6f9c84, #1f4d3a); }
+  .a2 { background: linear-gradient(160deg, #d9a05b, #b5472a); }
+  .a3 { background: linear-gradient(160deg, #9db7c4, #4b6b7c); }
+  .a4 { background: linear-gradient(160deg, #c7b98a, #7a6a3a); }
+  .the-lon div.chu { padding: 11px 12px 13px; }
+  .the-lon strong { display: block; font-size: 15px; font-weight: 700; line-height: 1.3; }
+  .the-lon small { display: block; margin-top: 3px; font-size: 12.5px; color: var(--xam); }
+
+  .lich-trinh { display: grid; gap: 10px; }
+  .lt { display: flex; align-items: center; gap: 14px; background: var(--giay); border: 1px solid var(--vien); border-radius: 14px; padding: 12px 14px; text-align: left; width: 100%; }
+  .lt b.so { flex: none; width: 46px; height: 46px; border-radius: 12px; background: var(--bazan); color: #fff7ea; display: grid; place-items: center; font-size: 12px; font-weight: 700; line-height: 1.1; text-align: center; }
+  .lt b.so big { display: block; font-size: 19px; font-weight: 800; }
+  .lt strong { display: block; font-size: 14.5px; font-weight: 700; }
+  .lt small { display: block; font-size: 12.5px; color: var(--xam); margin-top: 2px; }
+  .cuoi { height: 26px; }
+
+  /* ── DANH SÁCH ── */
+  .dau-phu { background: var(--giay); padding: 16px 20px 12px; border-bottom: 1px solid var(--vien); position: sticky; top: 0; z-index: 2; }
+  .dau-phu h1 { font-size: 22px; font-weight: 800; letter-spacing: -.01em; }
+  .loc { display: flex; gap: 8px; overflow-x: auto; margin: 12px -20px 0; padding: 0 20px; scrollbar-width: none; }
+  .loc::-webkit-scrollbar { display: none; }
+  .loc button { flex: none; height: 36px; padding: 0 14px; border-radius: 18px; border: 1px solid var(--vien); font-size: 13px; font-weight: 600; color: var(--xam); background: var(--giay); }
+  .loc button.chon { background: var(--thong); border-color: var(--thong); color: #f6f2e6; }
+  .ds { padding: 14px 20px 20px; display: grid; gap: 12px; }
+  .dong { display: flex; gap: 12px; background: var(--giay); border: 1px solid var(--vien); border-radius: 14px; padding: 10px; text-align: left; width: 100%; }
+  .dong .o { flex: none; width: 76px; height: 76px; border-radius: 10px; }
+  .dong strong { display: block; font-size: 15px; font-weight: 700; line-height: 1.3; }
+  .dong small { display: block; font-size: 12.5px; color: var(--xam); margin-top: 3px; line-height: 1.45; }
+  .dong i { font-style: normal; display: inline-block; margin-top: 6px; font-size: 11.5px; font-weight: 700; color: var(--thong); background: var(--thong-nhat); padding: 2px 8px; border-radius: 6px; }
+
+  /* ── CHI TIẾT ── */
+  .ct-anh { height: 230px; position: relative; }
+  .ct-ve { position: absolute; top: 14px; left: 14px; width: 40px; height: 40px; border-radius: 20px; background: rgba(255, 253, 248, .94); display: grid; place-items: center; }
+  .ct-ve svg { width: 20px; height: 20px; }
+  .ct { padding: 18px 20px 24px; }
+  .ct i.nhan { font-style: normal; font-size: 11.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--bazan); }
+  .ct h1 { font-size: 25px; font-weight: 800; line-height: 1.2; letter-spacing: -.015em; margin-top: 6px; text-wrap: balance; }
+  .ct p { font-size: 15px; line-height: 1.65; color: #34403a; margin-top: 12px; }
+  .tt { margin-top: 18px; border: 1px solid var(--vien); border-radius: 14px; background: var(--giay); }
+  .tt div { display: flex; justify-content: space-between; gap: 16px; padding: 12px 14px; font-size: 14px; }
+  .tt div + div { border-top: 1px solid var(--vien); }
+  .tt span { color: var(--xam); flex: none; }
+  .tt b { font-weight: 600; text-align: right; }
+  .hd { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 16px; }
+  .nut { height: 48px; border-radius: 12px; font-size: 14.5px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .nut.chinh { background: var(--bazan); color: #fff7ea; }
+  .nut.phu { border: 1.5px solid var(--thong); color: var(--thong); }
+  .meo { margin-top: 18px; background: #fbf1d6; border-left: 3px solid var(--nang); border-radius: 0 12px 12px 0; padding: 12px 14px; font-size: 13.5px; line-height: 1.55; }
+  .meo b { display: block; margin-bottom: 2px; }
+
+  /* ── BẢN ĐỒ (minh hoạ) ── */
+  .ban-do { height: 100%; min-height: 520px; position: relative; background:
+    radial-gradient(circle at 70% 30%, #cfe0d2 0 90px, transparent 91px),
+    radial-gradient(circle at 25% 70%, #d6e4d7 0 120px, transparent 121px),
+    linear-gradient(115deg, transparent 48%, #b9d3df 48% 51%, transparent 51%),
+    #e9e6da; }
+  .ghim { position: absolute; transform: translate(-50%, -100%); display: flex; flex-direction: column; align-items: center; gap: 3px; }
+  .ghim span { background: var(--giay); border: 1px solid var(--vien); border-radius: 8px; padding: 3px 8px; font-size: 11.5px; font-weight: 700; white-space: nowrap; box-shadow: 0 2px 6px rgba(0, 0, 0, .12); }
+  .ghim::after { content: ''; width: 14px; height: 14px; border-radius: 50% 50% 50% 0; background: var(--bazan); transform: rotate(-45deg); border: 2px solid var(--giay); }
+  .bd-ghi { position: absolute; left: 14px; right: 14px; bottom: 14px; background: var(--giay); border-radius: 12px; padding: 12px 14px; font-size: 13px; line-height: 1.5; color: var(--xam); border: 1px solid var(--vien); }
+
+  /* ── THANH DƯỚI ── */
+  .thanh { flex: none; display: grid; grid-template-columns: repeat(4, 1fr); background: var(--giay); border-top: 1px solid var(--vien); padding: 6px 0 10px; }
+  .thanh button { display: flex; flex-direction: column; align-items: center; gap: 3px; font-size: 11px; font-weight: 600; color: var(--xam); min-height: 48px; justify-content: center; }
+  .thanh svg { width: 23px; height: 23px; }
+  .thanh button.chon { color: var(--bazan); }
+</style>
+</head>
+<body>
+
+<p class="ghi-chu">Bản mẫu bấm thử của <b>Kon Tum Go</b>. Nội dung là ví dụ minh hoạ, ô màu là chỗ đặt ảnh thật.</p>
+
+<div class="may">
+
+  <!-- ══ TRANG CHỦ ══ -->
+  <section class="man hien" id="m-chu">
+    <div class="dau">
+      <svg class="nui" viewBox="0 0 390 70" preserveAspectRatio="none" aria-hidden="true"><path fill="#f6f2e6" d="M0 70V44l38-20 30 16 44-34 40 30 34-18 46 26 40-30 44 28 36-14 38 20v22z"/></svg>
+      <div class="logo">
+        <!-- mái nhà rông -->
+        <svg viewBox="0 0 34 34" aria-hidden="true"><path fill="#e0a526" d="M17 1 6 25h22z"/><path fill="#f6f2e6" d="M4 25h26v3H4zM8 28h3v5H8zM23 28h3v5h-3z"/></svg>
+        <b>Kon Tum <i>Go</i></b>
+      </div>
+      <h1 class="chao">Hôm nay mình đi đâu ở Kon Tum?</h1>
+      <p class="chao-phu">Nhà rông, thác rừng, đồi thông Măng Đen — có đường đi, giờ mở cửa và chỗ ăn nghỉ gần đó.</p>
+      <button class="tim" data-den="m-ds"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>Tìm địa điểm, quán ăn, homestay</button>
+    </div>
+    <div class="tho-cam" aria-hidden="true"></div>
+
+    <div class="khoi">
+      <div class="nhom">
+        <button data-den="m-ds"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="m3 19 6-11 4 7 2-3 6 7z"/></svg></span>Cảnh đẹp</button>
+        <button data-den="m-ds"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"><path d="M12 2 6 16h12zM5 16h14M8 16v5M16 16v5"/></svg></span>Làng &amp; di tích</button>
+        <button data-den="m-ds"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 3v8a3 3 0 0 0 6 0V3M9 3v18M18 3c-2 2-3 5-3 8h3zm0 8v10"/></svg></span>Ăn uống</button>
+        <button data-den="m-ds"><span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"><path d="M3 11 12 4l9 7M5 10v10h14V10M10 20v-6h4v6"/></svg></span>Lưu trú</button>
+      </div>
+    </div>
+
+    <div class="khoi">
+      <h2>Nên ghé đầu tiên <button data-den="m-ds">Xem tất cả</button></h2>
+      <div class="cuon">
+        <button class="the-lon" data-den="m-ct"><div class="anh a2"><em>TP. Kon Tum</em></div><div class="chu"><strong>Nhà thờ Gỗ Kon Tum</strong><small>Di tích · Trung tâm thành phố</small></div></button>
+        <button class="the-lon" data-den="m-ct"><div class="anh a1"><em>Măng Đen</em></div><div class="chu"><strong>Thác Pa Sỹ</strong><small>Cảnh đẹp · Kon Plông</small></div></button>
+        <button class="the-lon" data-den="m-ct"><div class="anh a4"><em>TP. Kon Tum</em></div><div class="chu"><strong>Nhà rông Kon Klor</strong><small>Làng văn hoá · Bên sông Đăk Bla</small></div></button>
+        <button class="the-lon" data-den="m-ct"><div class="anh a3"><em>Măng Đen</em></div><div class="chu"><strong>Hồ Đăk Ke</strong><small>Cảnh đẹp · Kon Plông</small></div></button>
+      </div>
+    </div>
+
+    <div class="khoi">
+      <h2>Lịch trình gợi ý</h2>
+      <div class="lich-trinh">
+        <button class="lt" data-den="m-ds"><b class="so"><big>1</big>ngày</b><span><strong>Một ngày ở thành phố Kon Tum</strong><small>Nhà thờ Gỗ, Toà Giám mục, cầu treo và nhà rông Kon Klor</small></span></button>
+        <button class="lt" data-den="m-ds"><b class="so"><big>2</big>ngày</b><span><strong>Cuối tuần ở Măng Đen</strong><small>Đồi thông, thác Pa Sỹ, hồ Đăk Ke, chợ đêm</small></span></button>
+        <button class="lt" data-den="m-ds"><b class="so"><big>3</big>ngày</b><span><strong>Kon Tum – Măng Đen – Ngã ba Đông Dương</strong><small>Đi hết ba hướng của tỉnh</small></span></button>
+      </div>
+    </div>
+    <div class="cuoi"></div>
+  </section>
+
+  <!-- ══ DANH SÁCH ══ -->
+  <section class="man" id="m-ds">
+    <div class="dau-phu">
+      <h1>Khám phá</h1>
+      <div class="loc">
+        <button class="chon">Tất cả</button><button>Măng Đen</button><button>TP. Kon Tum</button><button>Cảnh đẹp</button><button>Di tích</button><button>Ăn uống</button><button>Lưu trú</button>
+      </div>
+    </div>
+    <div class="ds">
+      <button class="dong" data-den="m-ct"><span class="o a2"></span><span><strong>Nhà thờ Gỗ Kon Tum</strong><small>Nhà thờ chính toà bằng gỗ, giữa trung tâm thành phố</small><i>Di tích</i></span></button>
+      <button class="dong" data-den="m-ct"><span class="o a1"></span><span><strong>Thác Pa Sỹ</strong><small>Thác giữa rừng nguyên sinh, cách thị trấn Măng Đen vài cây số</small><i>Cảnh đẹp</i></span></button>
+      <button class="dong" data-den="m-ct"><span class="o a4"></span><span><strong>Nhà rông Kon Klor</strong><small>Nhà rông của người Ba Na bên cầu treo Kon Klor</small><i>Làng văn hoá</i></span></button>
+      <button class="dong" data-den="m-ct"><span class="o a3"></span><span><strong>Hồ Đăk Ke</strong><small>Hồ nước giữa rừng thông, đi bộ quanh hồ</small><i>Cảnh đẹp</i></span></button>
+      <button class="dong" data-den="m-ct"><span class="o a2"></span><span><strong>Toà Giám mục Kon Tum</strong><small>Công trình kết hợp kiến trúc phương Tây và nhà sàn Ba Na</small><i>Di tích</i></span></button>
+      <button class="dong" data-den="m-ct"><span class="o a1"></span><span><strong>Tượng Đức Mẹ Măng Đen</strong><small>Điểm hành hương giữa rừng</small><i>Tâm linh</i></span></button>
+      <button class="dong" data-den="m-ct"><span class="o a4"></span><span><strong>Ngã ba Đông Dương</strong><small>Cột mốc ba nước Việt Nam – Lào – Campuchia</small><i>Cảnh đẹp</i></span></button>
+    </div>
+  </section>
+
+  <!-- ══ CHI TIẾT ══ -->
+  <section class="man" id="m-ct">
+    <div class="ct-anh a1">
+      <button class="ct-ve" data-den="m-ds" aria-label="Quay lại"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 5-7 7 7 7"/></svg></button>
+    </div>
+    <div class="tho-cam" aria-hidden="true"></div>
+    <div class="ct">
+      <i class="nhan">Cảnh đẹp · Măng Đen</i>
+      <h1>Thác Pa Sỹ</h1>
+      <p>Thác nằm giữa rừng nguyên sinh, đi bộ một đoạn dưới tán cây là tới chân thác. Trong khu có tượng gỗ và nhà rông của người Xơ Đăng.</p>
+      <div class="tt">
+        <div><span>Giờ mở cửa</span><b>(sẽ điền theo thực tế)</b></div>
+        <div><span>Giá vé</span><b>(sẽ điền theo thực tế)</b></div>
+        <div><span>Cách thị trấn</span><b>(sẽ đo theo bản đồ)</b></div>
+        <div><span>Đường vào</span><b>(cập nhật theo mùa)</b></div>
+      </div>
+      <div class="hd">
+        <button class="nut chinh">Chỉ đường</button>
+        <button class="nut phu">Lưu lại</button>
+      </div>
+      <div class="meo"><b>Mẹo của người ở đây</b>Chỗ này dành cho lời khuyên thật: nên đi giờ nào, mùa nào nước đẹp, mang theo gì.</div>
+      <div class="khoi" style="padding:22px 0 0">
+        <h2>Gần đây</h2>
+        <div class="cuon">
+          <button class="the-lon"><div class="anh a3"><em>Cảnh đẹp</em></div><div class="chu"><strong>Hồ Đăk Ke</strong><small>Kon Plông</small></div></button>
+          <button class="the-lon"><div class="anh a4"><em>Lưu trú</em></div><div class="chu"><strong>Homestay gần thác</strong><small>Chỗ cho cơ sở đăng ký</small></div></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ BẢN ĐỒ ══ -->
+  <section class="man" id="m-bd">
+    <div class="ban-do">
+      <div class="ghim" style="left:28%;top:62%"><span>Nhà thờ Gỗ</span></div>
+      <div class="ghim" style="left:40%;top:74%"><span>Kon Klor</span></div>
+      <div class="ghim" style="left:72%;top:30%"><span>Thác Pa Sỹ</span></div>
+      <div class="ghim" style="left:64%;top:44%"><span>Hồ Đăk Ke</span></div>
+      <div class="bd-ghi">Hình minh hoạ. Bản thật dùng bản đồ có thể phóng to, lọc theo nhóm và xem được khi mất sóng.</div>
+    </div>
+  </section>
+
+  <nav class="thanh" aria-label="Chính">
+    <button class="chon" data-den="m-chu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"><path d="M3 11 12 4l9 7v9H3z"/></svg>Trang chủ</button>
+    <button data-den="m-ds"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>Khám phá</button>
+    <button data-den="m-bd"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"><path d="m3 6 6-2 6 2 6-2v14l-6 2-6-2-6 2zM9 4v14M15 6v14"/></svg>Bản đồ</button>
+    <button data-den="m-ds"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"><path d="M6 3h12v18l-6-4-6 4z"/></svg>Đã lưu</button>
+  </nav>
+</div>
+
+<script>
+  const man = [...document.querySelectorAll('.man')];
+  const tab = [...document.querySelectorAll('.thanh button')];
+  document.addEventListener('click', (e) => {
+    const b = e.target.closest('[data-den]');
+    if (b) {
+      const id = b.dataset.den;
+      man.forEach(m => m.classList.toggle('hien', m.id === id));
+      document.getElementById(id).scrollTop = 0;
+      if (b.closest('.thanh')) tab.forEach(t => t.classList.toggle('chon', t === b));
+      else if (id !== 'm-ct') tab.forEach(t => t.classList.toggle('chon', t.dataset.den === id && t === tab.find(x => x.dataset.den === id)));
+      return;
+    }
+    const l = e.target.closest('.loc button');
+    if (l) l.parentElement.querySelectorAll('button').forEach(x => x.classList.toggle('chon', x === l));
+  });
+</script>
+</body>
+</html>

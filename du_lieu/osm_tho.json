@@ -1,0 +1,7869 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-05T07:44:06Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 456715427,
+  "lat": 14.5922755,
+  "lon": 108.2847295,
+  "tags": {
+    "name": "Hoa Sim",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 456715433,
+  "lat": 13.9809129,
+  "lon": 107.9950274,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "regional",
+    "name": "Ngoc Lam"
+  }
+},
+{
+  "type": "node",
+  "id": 669531446,
+  "lat": 13.9724101,
+  "lon": 108.0146684,
+  "tags": {
+    "addr:housenumber": "01",
+    "addr:street": "Phù Đổng",
+    "internet_access": "wlan",
+    "name": "Hoang Anh Gia Lai",
+    "name:en": "HAGL Hotel",
+    "name:vi": "HAGL Hotel",
+    "opening_hours": "24/7",
+    "phone": "+84593718450",
+    "tourism": "hotel",
+    "website": "http://www.haglhotelpleiku.vn"
+  }
+},
+{
+  "type": "node",
+  "id": 669531452,
+  "lat": 13.9768221,
+  "lon": 108.0063047,
+  "tags": {
+    "name": "Hung Vuong",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1336591358,
+  "lat": 15.0381952,
+  "lon": 107.9586366,
+  "tags": {
+    "natural": "peak",
+    "source": "mapbox"
+  }
+},
+{
+  "type": "node",
+  "id": 1380855990,
+  "lat": 13.9816803,
+  "lon": 108.0083891,
+  "tags": {
+    "name": "Pleiku Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 1380856181,
+  "lat": 13.9789735,
+  "lon": 107.9961475,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Chợ trung tâm Pleiku",
+    "name:en": "Pleiku Central Market"
+  }
+},
+{
+  "type": "node",
+  "id": 1620139956,
+  "lat": 14.7648335,
+  "lon": 108.2850221,
+  "tags": {
+    "alt_name": "Núi Ngoc Bóc",
+    "ele": "1757",
+    "name": "Núi Ngok Bóc",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 1620140742,
+  "lat": 14.6056154,
+  "lon": 108.4925115,
+  "tags": {
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 1620141077,
+  "lat": 14.6294903,
+  "lon": 108.1945262,
+  "tags": {
+    "ele": "1656",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 1620141901,
+  "lat": 14.7159322,
+  "lon": 108.1471970,
+  "tags": {
+    "ele": "1963",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 1621178555,
+  "lat": 14.7194724,
+  "lon": 107.8377023,
+  "tags": {
+    "name": "chiến thắng Đắc Tô - Tân Cảnh",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 1621178556,
+  "lat": 14.7652649,
+  "lon": 108.1262840,
+  "tags": {
+    "alt_name": "Núi Ngoc Krinh;Núi Ngok Kring;Núi Ngoc Kring",
+    "ele": "2066",
+    "name": "Núi Ngok Krinh",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 1621178557,
+  "lat": 14.5728782,
+  "lon": 107.6253211,
+  "tags": {
+    "ele": "833",
+    "name": "Núi Ngok Lang Grang",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 1621178558,
+  "lat": 14.5896896,
+  "lon": 107.9729757,
+  "tags": {
+    "ele": "1061",
+    "name": "ngok Tuôn",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 1621178559,
+  "lat": 14.5642934,
+  "lon": 108.0243199,
+  "tags": {
+    "alt_name": "Núi Ngoc Réo",
+    "ele": "1112",
+    "name": "Núi Ngok Réo",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 1621178716,
+  "lat": 14.5993256,
+  "lon": 107.7708865,
+  "tags": {
+    "ele": "1338",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 1621178746,
+  "lat": 14.6059280,
+  "lon": 107.5553924,
+  "tags": {
+    "ele": "1022",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 1621178769,
+  "lat": 14.6118042,
+  "lon": 108.4210986,
+  "tags": {
+    "ele": "1346",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 1621179384,
+  "lat": 14.7314215,
+  "lon": 107.9189066,
+  "tags": {
+    "ele": "1556",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 1621179439,
+  "lat": 14.7476823,
+  "lon": 108.0297300,
+  "tags": {
+    "ele": "1467",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 1621215272,
+  "lat": 14.5460728,
+  "lon": 108.4886122,
+  "tags": {
+    "ele": "1452",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 1621215279,
+  "lat": 14.2984606,
+  "lon": 108.5124017,
+  "tags": {
+    "ele": "1064",
+    "name": "Núi Kon K'Bang",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 1621215287,
+  "lat": 14.3209988,
+  "lon": 108.3975767,
+  "tags": {
+    "ele": "1748",
+    "name": "Núi Kon Ka Kinh",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 1621215354,
+  "lat": 14.5659874,
+  "lon": 108.3593054,
+  "tags": {
+    "alt_name": "Núi Ngoc Rô;Núi Ngok Roo;Núi Ngoc Roo",
+    "ele": "1549",
+    "name": "Núi Ngok Rô",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 1621216176,
+  "lat": 14.3962196,
+  "lon": 108.2290124,
+  "tags": {
+    "ele": "1338",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 1621216188,
+  "lat": 14.3990251,
+  "lon": 108.2996800,
+  "tags": {
+    "ele": "1488",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 1621216740,
+  "lat": 14.5456707,
+  "lon": 108.1256228,
+  "tags": {
+    "ele": "1353",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 1621236057,
+  "lat": 14.2769855,
+  "lon": 108.0395990,
+  "tags": {
+    "ele": "1152",
+    "name": "Núi Chư Hreng",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 1621236059,
+  "lat": 14.2841185,
+  "lon": 108.2008095,
+  "tags": {
+    "ele": "1208",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 1634860330,
+  "lat": 14.4867410,
+  "lon": 107.6971570,
+  "tags": {
+    "ele": "1570",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 1634860331,
+  "lat": 14.3382892,
+  "lon": 107.6045953,
+  "tags": {
+    "ele": "947",
+    "name": "Núi Chư Mơ Nu",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 1634860340,
+  "lat": 14.3972122,
+  "lon": 107.7188774,
+  "tags": {
+    "ele": "1198",
+    "name": "Núi Chư Tan Kra",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 1634860383,
+  "lat": 14.4720027,
+  "lon": 107.8140499,
+  "tags": {
+    "ele": "1062",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 1634860411,
+  "lat": 14.4848278,
+  "lon": 107.5356881,
+  "tags": {
+    "ele": "744",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 1720384570,
+  "lat": 13.9911380,
+  "lon": 108.0034248,
+  "tags": {
+    "addr:street": "Phạm Văn Đồng",
+    "amenity": "place_of_worship",
+    "name": "Chùa Vĩnh Nghiêm",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "node",
+  "id": 1720384571,
+  "lat": 13.9994691,
+  "lon": 107.9916214,
+  "tags": {
+    "name": "Khu Du Lịch Đại Vinh Gia Trang",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 1762309869,
+  "lat": 15.1032818,
+  "lon": 107.4207787,
+  "tags": {
+    "name:en": "Lake Nong Fa",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 1793136404,
+  "lat": 13.9781418,
+  "lon": 108.0049932,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Thành Tâm"
+  }
+},
+{
+  "type": "node",
+  "id": 1793136407,
+  "lat": 13.9792403,
+  "lon": 108.0060729,
+  "tags": {
+    "addr:street": "Lê Lợi",
+    "amenity": "place_of_worship",
+    "name": "Nhà thờ Thăng Thiên",
+    "religion": "christian"
+  }
+},
+{
+  "type": "node",
+  "id": 1793136408,
+  "lat": 13.9767348,
+  "lon": 108.0062792,
+  "tags": {
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 1974878959,
+  "lat": 15.0498191,
+  "lon": 108.5422414,
+  "tags": {
+    "amenity": "place_of_worship",
+    "religion": "christian",
+    "source": "GPS"
+  }
+},
+{
+  "type": "node",
+  "id": 3323156454,
+  "lat": 13.9765542,
+  "lon": 108.0008681,
+  "tags": {
+    "name": "Nhà khách CA tỉnh Gia Lai",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3323157102,
+  "lat": 13.9784438,
+  "lon": 108.0128308,
+  "tags": {
+    "name": "Ngọc Sê Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3323162400,
+  "lat": 14.0047517,
+  "lon": 107.9949812,
+  "tags": {
+    "name": "Khách Sạn Tây Đô",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3323162524,
+  "lat": 14.0009255,
+  "lon": 107.9914160,
+  "tags": {
+    "name": "Khách Sạn Hoa Nam",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3323166837,
+  "lat": 14.0154888,
+  "lon": 107.9857726,
+  "tags": {
+    "name": "Dong Que Guest House",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3476052243,
+  "lat": 14.9287825,
+  "lon": 107.4024772,
+  "tags": {
+    "amenity": "place_of_worship",
+    "source": "GPS"
+  }
+},
+{
+  "type": "node",
+  "id": 3490016273,
+  "lat": 14.6860984,
+  "lon": 107.5566280,
+  "tags": {
+    "historic": "boundary_stone",
+    "name": "T-Junction of Indochina",
+    "name:km": "ធី - ប្រសព្វនៃឥណ្ឌូចិន",
+    "name:lo": "ຈຸດທີ່ຕັ້ງຂອງອິນດູຈີນ",
+    "name:vi": "Ngã ba Đông Dương",
+    "ref": "2007",
+    "source": "14°41'09.80\"N 107°33'23.79\"E"
+  }
+},
+{
+  "type": "node",
+  "id": 3537735366,
+  "lat": 13.9794955,
+  "lon": 107.9992171,
+  "tags": {
+    "name": "Green Bamboo - Tre Xanh Plaza Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3537739562,
+  "lat": 13.9801201,
+  "lon": 107.9962988,
+  "tags": {
+    "name": "Duc Long Hotel 1",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3537743972,
+  "lat": 13.9771322,
+  "lon": 108.0021246,
+  "tags": {
+    "name": "Khách sạn tại Pleiku",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3537751708,
+  "lat": 14.3498197,
+  "lon": 108.0068199,
+  "tags": {
+    "name": "Family Hotel",
+    "source": "survey",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3537754561,
+  "lat": 14.3501067,
+  "lon": 108.0061362,
+  "tags": {
+    "name": "Binh Minh Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3537759937,
+  "lat": 14.3458472,
+  "lon": 108.0007128,
+  "tags": {
+    "name": "Khách sạn Dakbla",
+    "name:en": "Dakbla Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3537771701,
+  "lat": 14.3480071,
+  "lon": 108.0100736,
+  "tags": {
+    "name": "Truc Hoang Ha",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3537774826,
+  "lat": 14.3500444,
+  "lon": 108.0116508,
+  "tags": {
+    "name": "Khách Sạn Bích Phương",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3537776040,
+  "lat": 14.3504913,
+  "lon": 108.0199978,
+  "tags": {
+    "name": "Hong Yen 2 Guest House",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 3537798320,
+  "lat": 14.3656765,
+  "lon": 107.9976068,
+  "tags": {
+    "name": "Khách Sạn Hưng Yên",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3537805448,
+  "lat": 14.3659078,
+  "lon": 107.9962919,
+  "tags": {
+    "name": "Khách sạn Thịnh Quý",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3600090594,
+  "lat": 15.4404322,
+  "lon": 107.7933706,
+  "tags": {
+    "amenity": "fast_food"
+  }
+},
+{
+  "type": "node",
+  "id": 3600090596,
+  "lat": 15.4407735,
+  "lon": 107.7934136,
+  "tags": {
+    "amenity": "restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 3600090597,
+  "lat": 15.4408795,
+  "lon": 107.7934484,
+  "tags": {
+    "amenity": "restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 3600090598,
+  "lat": 15.4412673,
+  "lon": 107.7936013,
+  "tags": {
+    "amenity": "fast_food"
+  }
+},
+{
+  "type": "node",
+  "id": 3600090599,
+  "lat": 15.4420352,
+  "lon": 107.7937113,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 3600090600,
+  "lat": 15.4411329,
+  "lon": 107.7936228,
+  "tags": {
+    "amenity": "fast_food"
+  }
+},
+{
+  "type": "node",
+  "id": 3600090601,
+  "lat": 15.4400548,
+  "lon": 107.7934565,
+  "tags": {
+    "amenity": "fast_food"
+  }
+},
+{
+  "type": "node",
+  "id": 3600090602,
+  "lat": 15.4395765,
+  "lon": 107.7944569,
+  "tags": {
+    "tourism": "theme_park"
+  }
+},
+{
+  "type": "node",
+  "id": 3600090603,
+  "lat": 15.4389094,
+  "lon": 107.7953018,
+  "tags": {
+    "amenity": "fast_food"
+  }
+},
+{
+  "type": "node",
+  "id": 3600339699,
+  "lat": 14.0395502,
+  "lon": 107.9995095,
+  "tags": {
+    "name": "Biển Hồ",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 3770161851,
+  "lat": 15.4438328,
+  "lon": 107.7943225,
+  "tags": {
+    "name": "Phuoc Son",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 3770163767,
+  "lat": 15.4457129,
+  "lon": 107.7979308,
+  "tags": {
+    "historic": "memorial"
+  }
+},
+{
+  "type": "node",
+  "id": 3770199902,
+  "lat": 13.9738957,
+  "lon": 108.0151255,
+  "tags": {
+    "name": "Vinh Hoa",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 3822848446,
+  "lat": 14.6860478,
+  "lon": 107.5565875,
+  "tags": {
+    "description": "14°41'09.80\"N 107°33'23.79\"E",
+    "ele": "1086",
+    "name": "Đồi Tròn",
+    "natural": "peak",
+    "source": "According to the 2008 Agreement on Boundary lines signed by representatives of the three countries"
+  }
+},
+{
+  "type": "node",
+  "id": 4133869265,
+  "lat": 14.3466820,
+  "lon": 107.9987328,
+  "tags": {
+    "addr:housenumber": "659",
+    "addr:street": "Nguyễn Huệ",
+    "name": "Kon Tum Museum",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 4133919102,
+  "lat": 14.3482379,
+  "lon": 108.0344241,
+  "tags": {
+    "building": "yes",
+    "name": "Nhà rông Kon Klor",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4259774495,
+  "lat": 14.3524820,
+  "lon": 108.0191000,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop;ice_cream",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Eva​ ​Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 4259774496,
+  "lat": 14.0061250,
+  "lon": 108.4413400,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "vietnamese"
+  }
+},
+{
+  "type": "node",
+  "id": 4259785191,
+  "lat": 14.3478790,
+  "lon": 108.0071200,
+  "tags": {
+    "addr:street": "Ngô Quyền",
+    "amenity": "restaurant",
+    "cuisine": "asian",
+    "internet_access": "wlan",
+    "name": "Home sweet home"
+  }
+},
+{
+  "type": "node",
+  "id": 4259787691,
+  "lat": 14.3474820,
+  "lon": 108.0127000,
+  "tags": {
+    "addr:street": "Ngô Quyền",
+    "internet_access": "wlan",
+    "name": "Hong My Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4259804591,
+  "lat": 14.1620550,
+  "lon": 108.1500200,
+  "tags": {
+    "amenity": "fast_food",
+    "cuisine": "local"
+  }
+},
+{
+  "type": "node",
+  "id": 4259822389,
+  "lat": 14.7051180,
+  "lon": 107.6881200,
+  "tags": {
+    "charge": "150000 VND",
+    "fee": "yes",
+    "internet_access": "wlan",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 4283816392,
+  "lat": 15.4438947,
+  "lon": 107.7940680,
+  "tags": {
+    "name": "Buu Dien",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 4283883089,
+  "lat": 14.3501219,
+  "lon": 108.0136808,
+  "tags": {
+    "name": "Family Garden Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4346719678,
+  "lat": 14.3470917,
+  "lon": 108.0073938,
+  "tags": {
+    "addr:city": "Kon Tum",
+    "addr:housenumber": "17",
+    "addr:street": "Nguyen Trai",
+    "internet_access": "wlan",
+    "name": "Thinh Vuong",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4346721214,
+  "lat": 14.3473256,
+  "lon": 108.0032310,
+  "tags": {
+    "amenity": "restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 4360691967,
+  "lat": 15.0361866,
+  "lon": 108.1087446,
+  "tags": {
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 4369550847,
+  "lat": 15.0309219,
+  "lon": 107.7853488,
+  "tags": {
+    "name": "Thác Đăk Ruồi",
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 4432365294,
+  "lat": 15.1487921,
+  "lon": 108.1214450,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "nhà nghì Minh quân",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4433477091,
+  "lat": 15.1487819,
+  "lon": 108.1215739,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 4472575491,
+  "lat": 13.9749874,
+  "lon": 108.5256584,
+  "tags": {
+    "name": "Mang Yang Pass",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 4509789194,
+  "lat": 14.3567917,
+  "lon": 108.0003635,
+  "tags": {
+    "addr:housenumber": "126",
+    "addr:street": "Phan Dinh Phung",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "internet_access": "wlan",
+    "name:en": "Nguyen chat"
+  }
+},
+{
+  "type": "node",
+  "id": 4510434089,
+  "lat": 14.3475928,
+  "lon": 108.0138467,
+  "tags": {
+    "addr:housenumber": "53",
+    "addr:street": "Nguyen Trai",
+    "amenity": "restaurant",
+    "cuisine": "coffee_shop;korean",
+    "name": "Benz's house",
+    "name:en": "Benz's house",
+    "phone": "0966222244"
+  }
+},
+{
+  "type": "node",
+  "id": 4511467291,
+  "lat": 14.3453312,
+  "lon": 108.0076856,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "internet_access": "wlan",
+    "name": "Mesa Bakery & Coffee",
+    "shop": "bakery"
+  }
+},
+{
+  "type": "node",
+  "id": 4524427989,
+  "lat": 15.0772800,
+  "lon": 108.4585800,
+  "tags": {
+    "name": "Hồ thủy điện nước trong",
+    "name:en": "Nuoc Trong Reservoir",
+    "name:vi": "Hồ thủy điện Nước Trong",
+    "tourism": "camp_site"
+  }
+},
+{
+  "type": "node",
+  "id": 4528145990,
+  "lat": 14.7063180,
+  "lon": 107.6903779,
+  "tags": {
+    "internet_access": "wlan",
+    "tourism": "motel"
+  }
+},
+{
+  "type": "node",
+  "id": 4538115589,
+  "lat": 14.7069732,
+  "lon": 107.6903234,
+  "tags": {
+    "addr:housenumber": "879",
+    "addr:street": "Hùng Vương",
+    "internet_access": "wlan",
+    "name": "Khách Sạn Đông Dương",
+    "name:en": "Dong Duong Hotel",
+    "phone": "+84603832266",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4554916094,
+  "lat": 14.3500275,
+  "lon": 108.0142878,
+  "tags": {
+    "amenity": "restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 4555086791,
+  "lat": 14.3522279,
+  "lon": 108.0065364,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 4556976772,
+  "lat": 15.0916987,
+  "lon": 107.7391650,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4557107089,
+  "lat": 15.0913378,
+  "lon": 107.7382228,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4585727658,
+  "lat": 14.3513456,
+  "lon": 108.0059544,
+  "tags": {
+    "addr:housenumber": "12",
+    "addr:street": "Le Loi",
+    "amenity": "restaurant",
+    "diet:vegetarian": "yes",
+    "name": "Nghia Chay"
+  }
+},
+{
+  "type": "node",
+  "id": 4596409099,
+  "lat": 14.3484056,
+  "lon": 108.0057251,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "regional",
+    "description": "seafood",
+    "name": "3 Ngon",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 4596569718,
+  "lat": 14.3498267,
+  "lon": 108.0070038,
+  "tags": {
+    "name": "Tay Nguyen Hotel",
+    "source": "survey",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4596569719,
+  "lat": 14.3512041,
+  "lon": 108.0043308,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "diet:vegetarian": "yes",
+    "name": "Quan Au Chai",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 4597779090,
+  "lat": 15.0708671,
+  "lon": 107.7419781,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Gia Hưng",
+    "name:en": "Gia Hung",
+    "name:vi": "Gia Hưng",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 4615984889,
+  "lat": 15.0803576,
+  "lon": 107.7385428,
+  "tags": {
+    "name": "Tuan Lan Hotel",
+    "name:vi": "Tuan Lan Hotel",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 4641790394,
+  "lat": 15.2237965,
+  "lon": 107.7295451,
+  "tags": {
+    "name": "Thác Đăk Chè",
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 4641831993,
+  "lat": 14.7056838,
+  "lon": 107.6894805,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4642006489,
+  "lat": 14.5970500,
+  "lon": 108.2566602,
+  "tags": {
+    "name": "Thác Pa Sỹ",
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 4642065289,
+  "lat": 14.3184627,
+  "lon": 107.9886474,
+  "tags": {
+    "addr:housenumber": "485/3",
+    "addr:postcode": "580000",
+    "addr:street": "Tran Hung Dao ward",
+    "email": "vietnamphuot868@gmail.com",
+    "internet_access": "wlan",
+    "name": "Vietnam Phuot Homestay",
+    "name:en": "Vietnam Phuot Homestay",
+    "name:vi": "Vietnam Phuot Homestay",
+    "opening_hours": "24/7",
+    "phone": "+84909822196",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 4652906389,
+  "lat": 15.1662541,
+  "lon": 107.7518889,
+  "tags": {
+    "name:en": "Viewpoint",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 4655159991,
+  "lat": 15.4452543,
+  "lon": 107.7984525,
+  "tags": {
+    "amenity": "restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 4655162294,
+  "lat": 14.3498494,
+  "lon": 108.0012334,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Bich Hin",
+    "name:vi": "Bich Hin",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4694935790,
+  "lat": 13.9834105,
+  "lon": 108.0054819,
+  "tags": {
+    "historic": "memorial",
+    "inscription": "CHỦ TỊCH\nHỒ CHÍ MINH\n1890 - 1969",
+    "memorial": "statue",
+    "name": "Tượng Đài Bác Hồ",
+    "name:en": "Ho Chi Minh statue"
+  }
+},
+{
+  "type": "node",
+  "id": 4697466983,
+  "lat": 15.3033004,
+  "lon": 107.7077466,
+  "tags": {
+    "ele": "1728",
+    "name": "Núi Ngok Peng Pek",
+    "natural": "peak",
+    "source": "cyclemap"
+  }
+},
+{
+  "type": "node",
+  "id": 4697467588,
+  "lat": 15.3710691,
+  "lon": 107.4501231,
+  "tags": {
+    "natural": "peak",
+    "source": "cyclemap"
+  }
+},
+{
+  "type": "node",
+  "id": 4697467950,
+  "lat": 15.2199600,
+  "lon": 107.4074378,
+  "tags": {
+    "natural": "peak",
+    "source": "cyclemap"
+  }
+},
+{
+  "type": "node",
+  "id": 4697468133,
+  "lat": 15.2573525,
+  "lon": 107.5911702,
+  "tags": {
+    "natural": "peak",
+    "source": "cyclemap"
+  }
+},
+{
+  "type": "node",
+  "id": 4697468155,
+  "lat": 15.2650189,
+  "lon": 107.4344486,
+  "tags": {
+    "natural": "peak",
+    "source": "cyclemap"
+  }
+},
+{
+  "type": "node",
+  "id": 4697468336,
+  "lat": 15.3114809,
+  "lon": 107.5336378,
+  "tags": {
+    "natural": "peak",
+    "source": "cyclemap"
+  }
+},
+{
+  "type": "node",
+  "id": 4699200455,
+  "lat": 14.3629922,
+  "lon": 108.0034105,
+  "tags": {
+    "historic": "memorial",
+    "name": "Kon Tum Martyrs Cemetery"
+  }
+},
+{
+  "type": "node",
+  "id": 4704659190,
+  "lat": 13.9796249,
+  "lon": 107.9950846,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "steak_house;vietnamese;local",
+    "internet_access": "wlan",
+    "name": "BBQ Vien Dong",
+    "name:vi": "BBQ Vien Dong"
+  }
+},
+{
+  "type": "node",
+  "id": 4710329566,
+  "lat": 14.7422645,
+  "lon": 107.4788159,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Nam Phat Hotel",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 4712978490,
+  "lat": 15.0707655,
+  "lon": 107.7420236,
+  "tags": {
+    "internet_access": "wlan",
+    "name:en": "Gia Hung",
+    "phone": "0973839333",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 4714337491,
+  "lat": 14.3004623,
+  "lon": 107.8588056,
+  "tags": {
+    "name": "Sông SeSan",
+    "name:en": "Sesan River",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 4714969592,
+  "lat": 14.4928541,
+  "lon": 107.9993153,
+  "tags": {
+    "name": "Tết giọt nước serai",
+    "name:vi": "Tết giọt nước serai",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 4714973690,
+  "lat": 14.5102362,
+  "lon": 108.0008781,
+  "tags": {
+    "name": "Hồ đẹp",
+    "name:vi": "Hồ đẹp",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 4715013190,
+  "lat": 15.4327903,
+  "lon": 107.7801799,
+  "tags": {
+    "internet_access": "wlan",
+    "name:en": "Hotel Nha Khach Quang An",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4719478491,
+  "lat": 14.2813016,
+  "lon": 107.9246082,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Nhà Thờ Giáo xứ Klâu Rơngol",
+    "name:vi": "nhà thờ jarai",
+    "religion": "christian"
+  }
+},
+{
+  "type": "node",
+  "id": 4722539883,
+  "lat": 14.0808857,
+  "lon": 107.9976737,
+  "tags": {
+    "name": "Biển Hồ Chè",
+    "name:vi": "Biển Hồ Chè",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 4722586155,
+  "lat": 14.0583833,
+  "lon": 108.0033177,
+  "tags": {
+    "name": "Biển hồ nhỏ",
+    "name:vi": "Biển hồ nhỏ",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 4723423090,
+  "lat": 13.9733150,
+  "lon": 107.9957247,
+  "tags": {
+    "addr:housenumber": "90",
+    "addr:street": "Cù Chính Lan",
+    "name": "yogurt",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 4724025691,
+  "lat": 15.0901250,
+  "lon": 107.7365700,
+  "tags": {
+    "name:en": "Tai nguyen guesthouse",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 4728811283,
+  "lat": 14.4583461,
+  "lon": 107.7388727,
+  "tags": {
+    "ele": "1773",
+    "name": "Núi Chư Mom Ray",
+    "natural": "peak",
+    "source": "mapbox"
+  }
+},
+{
+  "type": "node",
+  "id": 4728811284,
+  "lat": 14.8319813,
+  "lon": 108.1014022,
+  "tags": {
+    "natural": "peak",
+    "source": "mapbox"
+  }
+},
+{
+  "type": "node",
+  "id": 4728811285,
+  "lat": 14.8344898,
+  "lon": 107.8247164,
+  "tags": {
+    "natural": "peak",
+    "source": "mapbox"
+  }
+},
+{
+  "type": "node",
+  "id": 4728811286,
+  "lat": 14.8744082,
+  "lon": 108.1395162,
+  "tags": {
+    "natural": "peak",
+    "source": "mapbox"
+  }
+},
+{
+  "type": "node",
+  "id": 4728811287,
+  "lat": 14.9245247,
+  "lon": 108.0481363,
+  "tags": {
+    "natural": "peak",
+    "source": "mapbox"
+  }
+},
+{
+  "type": "node",
+  "id": 4728811288,
+  "lat": 14.9444472,
+  "lon": 107.7782140,
+  "tags": {
+    "natural": "peak",
+    "source": "mapbox"
+  }
+},
+{
+  "type": "node",
+  "id": 4728811289,
+  "lat": 14.9488239,
+  "lon": 107.8903692,
+  "tags": {
+    "natural": "peak",
+    "source": "mapbox"
+  }
+},
+{
+  "type": "node",
+  "id": 4728811290,
+  "lat": 14.9971124,
+  "lon": 108.0089288,
+  "tags": {
+    "natural": "peak",
+    "source": "mapbox"
+  }
+},
+{
+  "type": "node",
+  "id": 4728811292,
+  "lat": 15.0410355,
+  "lon": 107.8346473,
+  "tags": {
+    "alt_name": "Núi Ngoc Niay",
+    "ele": "2259",
+    "name": "Núi Ngok Niay",
+    "natural": "peak",
+    "source": "mapbox"
+  }
+},
+{
+  "type": "node",
+  "id": 4729243377,
+  "lat": 14.6820460,
+  "lon": 107.8734210,
+  "tags": {
+    "ele": "1075",
+    "name": "Núi Ngok Long",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 4729489467,
+  "lat": 14.8155396,
+  "lon": 108.3664531,
+  "tags": {
+    "alt_name": "Núi Ngoc Tem",
+    "ele": "1362",
+    "name": "Núi Ngok Tem",
+    "natural": "peak",
+    "source": "cyclemap"
+  }
+},
+{
+  "type": "node",
+  "id": 4736424131,
+  "lat": 14.3513400,
+  "lon": 108.0040947,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "diet:vegetarian": "yes",
+    "name": "com chay 84"
+  }
+},
+{
+  "type": "node",
+  "id": 4773432054,
+  "lat": 14.6441343,
+  "lon": 107.8451930,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Phu Gia",
+    "name:vi": "Phu Gia",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4783838926,
+  "lat": 15.0904762,
+  "lon": 107.7367627,
+  "tags": {
+    "name": "Tay Nguyen",
+    "name:vi": "Tay Nguyen",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4784335122,
+  "lat": 13.9796747,
+  "lon": 107.9942277,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "cơm Gà Ngọc Ký",
+    "name:vi": "cơm Gà Ngọc Ký"
+  }
+},
+{
+  "type": "node",
+  "id": 4800105622,
+  "lat": 15.4427108,
+  "lon": 107.7925324,
+  "tags": {
+    "internet_access": "wlan",
+    "name": "Guesthouse 21",
+    "name:vi": "Guesthouse 21",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 4800111322,
+  "lat": 15.0910689,
+  "lon": 107.7388747,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Quynh Tho"
+  }
+},
+{
+  "type": "node",
+  "id": 4800119421,
+  "lat": 15.0910388,
+  "lon": 107.7387306,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "internet_access": "wlan",
+    "name": "Quynh Tho",
+    "name:vi": "Quynh Tho"
+  }
+},
+{
+  "type": "node",
+  "id": 4801159429,
+  "lat": 14.7069978,
+  "lon": 107.6890512,
+  "tags": {
+    "internet_access": "wlan",
+    "name:en": "Gia Tue Nhi Nha Nghi",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4801159430,
+  "lat": 14.3726816,
+  "lon": 107.9882882,
+  "tags": {
+    "amenity": "fast_food",
+    "name:en": "Street food"
+  }
+},
+{
+  "type": "node",
+  "id": 4801159431,
+  "lat": 14.0440082,
+  "lon": 108.2566324,
+  "tags": {
+    "name:en": "Bungalow Place",
+    "tourism": "motel"
+  }
+},
+{
+  "type": "node",
+  "id": 4807475423,
+  "lat": 13.9752664,
+  "lon": 108.0150953,
+  "tags": {
+    "name": "Pho Nui hotel",
+    "name:et": "Väga ok hotell",
+    "name:vi": "Pho Nui hotel",
+    "phone": "0593887379",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 4845622521,
+  "lat": 13.9727071,
+  "lon": 108.0124325,
+  "tags": {
+    "name:en": "Key man",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4845622523,
+  "lat": 13.9777936,
+  "lon": 108.0032292,
+  "tags": {
+    "amenity": "restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 4850174022,
+  "lat": 13.9715181,
+  "lon": 108.0173509,
+  "tags": {
+    "amenity": "restaurant",
+    "name:en": "Hung Sang - pho ba + beer, open late"
+  }
+},
+{
+  "type": "node",
+  "id": 4854885621,
+  "lat": 14.3499464,
+  "lon": 108.0084194,
+  "tags": {
+    "name:en": "Bishop of Kontum's Building",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4855335621,
+  "lat": 14.3394966,
+  "lon": 108.0331773,
+  "tags": {
+    "name:en": "Theresa Orphanage",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4856928723,
+  "lat": 14.3395569,
+  "lon": 108.0332878,
+  "tags": {
+    "name:en": "Teresa Orphanage",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4856992123,
+  "lat": 14.3450857,
+  "lon": 108.0065638,
+  "tags": {
+    "amenity": "restaurant",
+    "name:en": "Hiep Thanh"
+  }
+},
+{
+  "type": "node",
+  "id": 4865444621,
+  "lat": 14.3599850,
+  "lon": 107.9984555,
+  "tags": {
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "name": "Cà Phê Nguyên Chât",
+    "name:vi": "Cà Phê Nguyên Chât"
+  }
+},
+{
+  "type": "node",
+  "id": 4875471121,
+  "lat": 14.3393978,
+  "lon": 108.0332596,
+  "tags": {
+    "name:en": "Teresa Orphanage",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 4878091421,
+  "lat": 15.4437803,
+  "lon": 107.7946200,
+  "tags": {
+    "name:en": "Nha Nghi Phuoc Minh",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 4882069024,
+  "lat": 15.4436489,
+  "lon": 107.7942023,
+  "tags": {
+    "amenity": "restaurant",
+    "name:en": "Hieu Ngan"
+  }
+},
+{
+  "type": "node",
+  "id": 4929665522,
+  "lat": 14.3502023,
+  "lon": 108.0310157,
+  "tags": {
+    "name:zh": "貧窮的原住民部落",
+    "tourism": "chalet"
+  }
+},
+{
+  "type": "node",
+  "id": 4930954821,
+  "lat": 14.3485057,
+  "lon": 108.0055593,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "Bò Né",
+    "name:vi": "Bò Né"
+  }
+},
+{
+  "type": "node",
+  "id": 4944009422,
+  "lat": 14.0329239,
+  "lon": 108.5160470,
+  "tags": {
+    "name": "Vĩnh thạnh, vĩnh thạnh, Bình Định",
+    "name:vi": "Vĩnh thạnh, vĩnh thạnh, Bình Định",
+    "tourism": "alpine_hut"
+  }
+},
+{
+  "type": "node",
+  "id": 4987490224,
+  "lat": 13.9783345,
+  "lon": 107.9910244,
+  "tags": {
+    "addr:housenumber": "03",
+    "addr:street": "Trần Quốc Toản",
+    "amenity": "restaurant",
+    "internet_access": "wlan",
+    "name": "Quán Vạn xuân",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 5025596622,
+  "lat": 15.3646703,
+  "lon": 107.4101196,
+  "tags": {
+    "name:th": "1.005 Km",
+    "tourism": "camp_site"
+  }
+},
+{
+  "type": "node",
+  "id": 5029726921,
+  "lat": 14.3703762,
+  "lon": 108.0087310,
+  "tags": {
+    "addr:housenumber": "329",
+    "addr:street": "URE",
+    "amenity": "cafe",
+    "email": "truongcatkontum@gmail.com",
+    "internet_access": "wlan",
+    "name": "Quán cafe Hoa Sữa",
+    "name:vi": "Quán cafe Hoa Sữa",
+    "opening_hours": "24/7",
+    "phone": "02603867029"
+  }
+},
+{
+  "type": "node",
+  "id": 5065425525,
+  "lat": 13.9641991,
+  "lon": 107.3595068,
+  "tags": {
+    "amenity": "restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 5078175221,
+  "lat": 14.2874240,
+  "lon": 107.9743050,
+  "tags": {
+    "name:en": "Dam viewpoint",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5080624321,
+  "lat": 13.9792120,
+  "lon": 107.9972858,
+  "tags": {
+    "name": "Chợ đêm pleiku",
+    "name:vi": "Chợ đêm pleiku",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 5081735521,
+  "lat": 13.9702430,
+  "lon": 107.9971199,
+  "tags": {
+    "addr:housenumber": "62",
+    "addr:street": "Đống Đa",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Cuội Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 5081735522,
+  "lat": 13.9769361,
+  "lon": 108.0037679,
+  "tags": {
+    "addr:housenumber": "15",
+    "addr:street": "Nguyễn Thái Học",
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "Phở Ngọc Sơn"
+  }
+},
+{
+  "type": "node",
+  "id": 5183397022,
+  "lat": 14.7053838,
+  "lon": 107.6881238,
+  "tags": {
+    "addr:street": "80 Hoàng Thị Loan",
+    "amenity": "restaurant",
+    "name": "Âm Thưc Việt",
+    "name:en": "Vietnamese music restaurant",
+    "phone": "0905891899"
+  }
+},
+{
+  "type": "node",
+  "id": 5185178721,
+  "lat": 15.4203429,
+  "lon": 107.7684563,
+  "tags": {
+    "addr:street": "Quốc lộ 14",
+    "amenity": "restaurant",
+    "name": "Phước Đức"
+  }
+},
+{
+  "type": "node",
+  "id": 5208154022,
+  "lat": 14.7062258,
+  "lon": 107.6940846,
+  "tags": {
+    "name:de": "Long Binh",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5244640809,
+  "lat": 14.0351229,
+  "lon": 107.9682803,
+  "tags": {
+    "historic": "memorial"
+  }
+},
+{
+  "type": "node",
+  "id": 5301644321,
+  "lat": 14.3569600,
+  "lon": 108.0003482,
+  "tags": {
+    "addr:housenumber": "130",
+    "addr:street": "Phan Đình Phùng (nối dài)",
+    "amenity": "restaurant",
+    "name": "tp Kon Tum Cơm Niêu có Bống"
+  }
+},
+{
+  "type": "node",
+  "id": 5319275725,
+  "lat": 15.1503219,
+  "lon": 108.1225230,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Cafe Thu Kiet",
+    "phone": "+84977029159"
+  }
+},
+{
+  "type": "node",
+  "id": 5319279221,
+  "lat": 14.7069257,
+  "lon": 107.6848809,
+  "tags": {
+    "addr:street": "Quốc lộ 14",
+    "email": "bmcngochoi_hotel@yahoo.com",
+    "internet_access": "wlan",
+    "name": "Ngoc Hội Hotel",
+    "opening_hours": "24/7",
+    "phone": "+84606268686",
+    "tourism": "hotel",
+    "website": "http://www.bmcngochoihotel.com"
+  }
+},
+{
+  "type": "node",
+  "id": 5341920121,
+  "lat": 13.9795301,
+  "lon": 108.0058629,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Cf cayda",
+    "name:vi": "Cf cayda"
+  }
+},
+{
+  "type": "node",
+  "id": 5345990421,
+  "lat": 14.3500574,
+  "lon": 108.0070211,
+  "tags": {
+    "name": "Bắc Húóng",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5348048524,
+  "lat": 14.3500615,
+  "lon": 108.0067149,
+  "tags": {
+    "name:en": "Binh Minh Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5348048626,
+  "lat": 14.3500371,
+  "lon": 108.0070701,
+  "tags": {
+    "name:en": "Bac Huong Hotel (real place)",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5348054922,
+  "lat": 14.3503845,
+  "lon": 108.0034272,
+  "tags": {
+    "name:en": "My Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5348319321,
+  "lat": 13.9716718,
+  "lon": 107.6150107,
+  "tags": {
+    "tourism": "apartment"
+  }
+},
+{
+  "type": "node",
+  "id": 5364862821,
+  "lat": 13.9744886,
+  "lon": 108.0009408,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "C.INE Restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 5395098321,
+  "lat": 13.9761863,
+  "lon": 108.0071666,
+  "tags": {
+    "addr:housenumber": "84",
+    "addr:street": "Hùng Vương",
+    "email": "dangxuapleiko@gmail.com",
+    "internet_access": "wlan",
+    "name": "Dang xua Hotel",
+    "phone": "059 382 4515",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 5397604822,
+  "lat": 13.9767941,
+  "lon": 108.0022271,
+  "tags": {
+    "addr:housenumber": "84",
+    "addr:street": "Hùng Vương",
+    "internet_access": "wlan",
+    "name": "Dang xua hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5406828222,
+  "lat": 13.9700817,
+  "lon": 108.0149931,
+  "tags": {
+    "addr:street": "Trường Chinh",
+    "internet_access": "wlan",
+    "name": "Thu Hong",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5430421421,
+  "lat": 14.3224562,
+  "lon": 108.0804631,
+  "tags": {
+    "name": "Điểm nghỉ chân Konktu",
+    "tourism": "information"
+  }
+},
+{
+  "type": "node",
+  "id": 5431621223,
+  "lat": 15.3717514,
+  "lon": 108.2505503,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Hội Thánh Tin Lành Dương Yên",
+    "name:en": "The Duong Yen Evangelical Church"
+  }
+},
+{
+  "type": "node",
+  "id": 5439114923,
+  "lat": 14.0657462,
+  "lon": 108.0132594,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Buddhist Temple"
+  }
+},
+{
+  "type": "node",
+  "id": 5439150321,
+  "lat": 14.0306287,
+  "lon": 107.9831671,
+  "tags": {
+    "addr:street": "Trường Sơn",
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "name": "Thao Nguyen Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 5453769823,
+  "lat": 14.3511100,
+  "lon": 108.0105800,
+  "tags": {
+    "addr:housenumber": "146",
+    "addr:street": "Trần Hưng Đạo",
+    "name": "Bishop of Kontum's Building",
+    "name:vi": "Tòa giám mục Kon Tum - Chủng viện thừa sai",
+    "opening_hours": "Mo-Su 08:00-11:30, 14:30-17:00",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 5456526823,
+  "lat": 14.3501620,
+  "lon": 108.0043900,
+  "tags": {
+    "amenity": "restaurant",
+    "name:en": "Rita Pizza and Pasta"
+  }
+},
+{
+  "type": "node",
+  "id": 5474419727,
+  "lat": 15.0922505,
+  "lon": 107.7411200,
+  "tags": {
+    "addr:street": "14a Dak Pet",
+    "name": "Tay Nguyen Guesthouse",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 5477741026,
+  "lat": 13.9698601,
+  "lon": 107.9944619,
+  "tags": {
+    "name": "Nha Nghi Soe Ham",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 5477741027,
+  "lat": 15.0888351,
+  "lon": 107.7355918,
+  "tags": {
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "name": "Bích Hà"
+  }
+},
+{
+  "type": "node",
+  "id": 5484188121,
+  "lat": 15.4202178,
+  "lon": 107.7686019,
+  "tags": {
+    "amenity": "restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 5485638922,
+  "lat": 13.9824500,
+  "lon": 107.9950941,
+  "tags": {
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "name": "U-Ories"
+  }
+},
+{
+  "type": "node",
+  "id": 5489021732,
+  "lat": 14.4080323,
+  "lon": 107.7977683,
+  "tags": {
+    "addr:city": "Sa Thầy",
+    "addr:district": "Sa Thầy",
+    "addr:province": "Kon Tum",
+    "addr:subdistrict": "Sa Thầy",
+    "amenity": "marketplace",
+    "name": "Chợ Sa Thầy"
+  }
+},
+{
+  "type": "node",
+  "id": 5489021733,
+  "lat": 14.4107294,
+  "lon": 107.7923801,
+  "tags": {
+    "addr:city": "Sa Thầy",
+    "addr:district": "Sa Thầy",
+    "addr:province": "Kon Tum",
+    "addr:subdistrict": "Sa Thầy",
+    "internet_access": "wlan",
+    "name": "Nhà khách huyện Sa Thầy",
+    "operator": "UBND huyện Sa Thầy",
+    "rooms": "10",
+    "smoking": "outside",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 5490249343,
+  "lat": 14.4881339,
+  "lon": 107.8435692,
+  "tags": {
+    "addr:district": "Sa Thầy",
+    "addr:province": "Kon Tum",
+    "addr:street": "ĐT 675",
+    "addr:subdistrict": "Hơ Moong",
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "name": "Cà phê Hoa Phong",
+    "opening_hours": "05:00-21:00",
+    "smoking": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5490249344,
+  "lat": 14.4884486,
+  "lon": 107.8436868,
+  "tags": {
+    "addr:district": "Sa Thầy",
+    "addr:province": "Kon Tum",
+    "addr:street": "ĐT 675",
+    "addr:subdistrict": "Hơ Moong",
+    "amenity": "internet_cafe",
+    "name": "Quán NET Hoàng Anh",
+    "opening_hours": "08:00-22:00",
+    "smoking": "outside"
+  }
+},
+{
+  "type": "node",
+  "id": 5490249345,
+  "lat": 14.4889633,
+  "lon": 107.8439699,
+  "tags": {
+    "addr:district": "Sa Thầy",
+    "addr:province": "Kon Tum",
+    "addr:street": "ĐT 675",
+    "addr:subdistrict": "Hơ Moong",
+    "amenity": "restaurant",
+    "capacity": "150",
+    "cuisine": "vietnamese",
+    "name": "Quán cơm Tây Nguyên",
+    "opening_hours": "06:00-22:00",
+    "outdoor_seating": "yes",
+    "smoking": "outside",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5490249353,
+  "lat": 14.4866050,
+  "lon": 107.8448997,
+  "tags": {
+    "addr:district": "Sa Thầy",
+    "addr:province": "Kon Tum",
+    "addr:street": "ĐT 675",
+    "addr:subdistrict": "Hơ Moong",
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Nhà thờ thôn Đắk Vớk",
+    "religion": "christian"
+  }
+},
+{
+  "type": "node",
+  "id": 5490455748,
+  "lat": 14.5794744,
+  "lon": 108.2744747,
+  "tags": {
+    "addr:district": "Kon Plông",
+    "addr:province": "Kon Tum",
+    "addr:subdistrict": "Măng Đen",
+    "internet_access": "wlan",
+    "name": "Khách sạn Hưng Yên 2",
+    "rooms": "35",
+    "smoking": "outside",
+    "stars": "2",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5490455749,
+  "lat": 14.5808175,
+  "lon": 108.2766309,
+  "tags": {
+    "addr:district": "Kon Plông",
+    "addr:province": "Kon Tum",
+    "addr:subdistrict": "Măng Đen",
+    "name": "Hồ Đắk Ke",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 5490606655,
+  "lat": 14.6004987,
+  "lon": 108.2566569,
+  "tags": {
+    "name": "Thác Pa Sỹ",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 5490606691,
+  "lat": 14.5874974,
+  "lon": 108.2686821,
+  "tags": {
+    "amenity": "place_of_worship",
+    "denomination": "mahayana",
+    "name": "Chùa Khánh Lâm",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "node",
+  "id": 5490688956,
+  "lat": 14.6001691,
+  "lon": 108.3032283,
+  "tags": {
+    "name": "Nhà Rông Kon Pring",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 5490688957,
+  "lat": 14.6009401,
+  "lon": 108.2978632,
+  "tags": {
+    "addr:city": "Huyện Kon Plông",
+    "addr:district": "Xã Đắk Long",
+    "addr:province": "Tỉnh Kon Tum",
+    "addr:street": "Quốc lộ 24",
+    "addr:subdistrict": "Thôn Măng Đen",
+    "name": "Đức mẹ Măng Đen",
+    "name:en": "Our Lady of Mang Den",
+    "name:fr": "Notre Dame de Mang Den",
+    "name:zh": "芒单圣母",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 5491082721,
+  "lat": 14.7054934,
+  "lon": 107.6891600,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Quán Trang"
+  }
+},
+{
+  "type": "node",
+  "id": 5492564633,
+  "lat": 14.5995263,
+  "lon": 108.2907437,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Tượng đài Chiến thắng Măng Đen",
+    "name:zh": "芒单胜利纪念台"
+  }
+},
+{
+  "type": "node",
+  "id": 5492676008,
+  "lat": 14.6015271,
+  "lon": 108.2903869,
+  "tags": {
+    "addr:street": "Đường số 1",
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "Hạnh Cấp"
+  }
+},
+{
+  "type": "node",
+  "id": 5492765364,
+  "lat": 14.5871742,
+  "lon": 108.2694449,
+  "tags": {
+    "artwork_type": "statue",
+    "name": "Quán Thế Âm Bồ Tát",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 5492765837,
+  "lat": 14.6057546,
+  "lon": 108.2880306,
+  "tags": {
+    "name": "Nhà nghỉ Cát Tường",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5510882821,
+  "lat": 14.3520485,
+  "lon": 108.0146818,
+  "tags": {
+    "addr:housenumber": "101",
+    "addr:street": "Phan Chu Trinh",
+    "amenity": "restaurant",
+    "name": "Quán Đạt"
+  }
+},
+{
+  "type": "node",
+  "id": 5610705822,
+  "lat": 13.9595228,
+  "lon": 107.3568935,
+  "tags": {
+    "name:en": "ភូមិ​ កែតតូច",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 5610705922,
+  "lat": 13.9901624,
+  "lon": 107.3821637,
+  "tags": {
+    "name": "ភូម​ តាង៉ា",
+    "tourism": "camp_site"
+  }
+},
+{
+  "type": "node",
+  "id": 5679874023,
+  "lat": 13.9832385,
+  "lon": 107.9910458,
+  "tags": {
+    "name": "Gia Bảo",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5714615221,
+  "lat": 13.9739276,
+  "lon": 107.9998005,
+  "tags": {
+    "addr:housenumber": "139",
+    "addr:street": "Wừu",
+    "amenity": "restaurant",
+    "internet_access": "wlan",
+    "name": "Dê Krông Pa"
+  }
+},
+{
+  "type": "node",
+  "id": 5717996722,
+  "lat": 14.7051036,
+  "lon": 107.6899825,
+  "tags": {
+    "name": "Phú Phát Hotel",
+    "phone": "0606535678",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5740163625,
+  "lat": 13.9862189,
+  "lon": 108.0060941,
+  "tags": {
+    "addr:housenumber": "6",
+    "addr:street": "Phan Đình Phùng",
+    "name": "Bảo tàng Tịch Hồ Chí Minh CN Gia lai",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 5740175402,
+  "lat": 14.0250215,
+  "lon": 107.9906388,
+  "tags": {
+    "addr:housenumber": "662",
+    "addr:street": "Phạm Văn Đồng",
+    "amenity": "restaurant",
+    "name": "Nhà Hàng Biển Hồ Xanh"
+  }
+},
+{
+  "type": "node",
+  "id": 5755729443,
+  "lat": 13.9775496,
+  "lon": 108.0052120,
+  "tags": {
+    "addr:city": "Pleiku",
+    "addr:housenumber": "1",
+    "addr:postcode": "600000",
+    "addr:province": "Gia Lai",
+    "addr:street": "Phan Bội Châu",
+    "addr:subdistrict": "Hội Thương",
+    "amenity": "fast_food",
+    "branch": "Pleiku",
+    "brand": "Lotteria",
+    "brand:wikidata": "Q249525",
+    "cuisine": "burger",
+    "name": "Lotteria",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5755816787,
+  "lat": 14.0114739,
+  "lon": 107.9933968,
+  "tags": {
+    "addr:city": "Pleiku",
+    "addr:district": "Đống Đa",
+    "addr:housenumber": "386",
+    "addr:postcode": "600000",
+    "addr:province": "Gia Lai",
+    "addr:street": "Phạm Văn Đồng",
+    "amenity": "restaurant",
+    "name": "Nhà Hàng Đông Dương"
+  }
+},
+{
+  "type": "node",
+  "id": 5755816788,
+  "lat": 14.0096460,
+  "lon": 107.9933928,
+  "tags": {
+    "addr:city": "Pleiku",
+    "addr:district": "Đống Đa",
+    "addr:housenumber": "441",
+    "addr:postcode": "600000",
+    "addr:province": "Gia Lai",
+    "addr:street": "Phạm Văn Đồng",
+    "name": "Khách Sạn Duy Long",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5755816789,
+  "lat": 14.0022398,
+  "lon": 107.9954162,
+  "tags": {
+    "addr:city": "Pleiku",
+    "addr:district": "Thống Nhất",
+    "addr:housenumber": "294",
+    "addr:postcode": "600000",
+    "addr:province": "Gia Lai",
+    "addr:street": "Phạm Văn Đồng",
+    "brand": "Khách Sạn Hạ Trắng",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5765224953,
+  "lat": 14.5793784,
+  "lon": 108.2798141,
+  "tags": {
+    "addr:street": "Quốc Lộ 24",
+    "internet_access": "wlan",
+    "name": "Hoa Sim 2 Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 5773485255,
+  "lat": 15.1063693,
+  "lon": 107.4246763,
+  "tags": {
+    "tourism": "picnic_site"
+  }
+},
+{
+  "type": "node",
+  "id": 5773636553,
+  "lat": 14.9235503,
+  "lon": 108.1498065,
+  "tags": {
+    "name": "Cầu treo thôn Đắk Lanh",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5774846355,
+  "lat": 14.6011398,
+  "lon": 108.2942030,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Cà phê Bờ Hồ"
+  }
+},
+{
+  "type": "node",
+  "id": 5777963855,
+  "lat": 14.8638824,
+  "lon": 108.2490258,
+  "tags": {
+    "name": "Cầu treo",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5777969553,
+  "lat": 14.8443637,
+  "lon": 108.2437896,
+  "tags": {
+    "name": "Cầu tràn Đắk Ring",
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 5792310863,
+  "lat": 14.9502611,
+  "lon": 108.2762335,
+  "tags": {
+    "name": "Điểm sạt lở",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 5800116755,
+  "lat": 14.3533687,
+  "lon": 108.0178383,
+  "tags": {
+    "addr:street": "Hồ Tùng Mậu",
+    "name": "Highland Eco Tours",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 5800123054,
+  "lat": 14.3453537,
+  "lon": 108.0081066,
+  "tags": {
+    "addr:street": "Nguyễn Huệ",
+    "amenity": "restaurant",
+    "name": "Quan Pho Kho My 2"
+  }
+},
+{
+  "type": "node",
+  "id": 5800133053,
+  "lat": 14.3558054,
+  "lon": 108.0056596,
+  "tags": {
+    "addr:housenumber": "43",
+    "addr:street": "Lê Quý Đôn",
+    "amenity": "cafe",
+    "name": "I Love Kon Tum Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 5803990854,
+  "lat": 14.0769485,
+  "lon": 107.9890437,
+  "tags": {
+    "addr:street": "Đường Hồ Chí Minh",
+    "name": "Tuấn Hoa",
+    "name:en": "Tuan Hoa",
+    "tourism": "apartment"
+  }
+},
+{
+  "type": "node",
+  "id": 5803991054,
+  "lat": 14.0866259,
+  "lon": 107.9844911,
+  "tags": {
+    "addr:street": "Đường Hồ Chí Minh",
+    "name": "TUẤN HOA",
+    "name:en": "Mr. Tuan",
+    "tourism": "apartment"
+  }
+},
+{
+  "type": "node",
+  "id": 5832872682,
+  "lat": 14.5051818,
+  "lon": 108.3857489,
+  "tags": {
+    "name": "Thác Ba Tầng",
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 5834157486,
+  "lat": 14.6951896,
+  "lon": 107.6865817,
+  "tags": {
+    "historic": "monument",
+    "name": "Road 14C"
+  }
+},
+{
+  "type": "node",
+  "id": 5874419886,
+  "lat": 13.9719359,
+  "lon": 107.9984327,
+  "tags": {
+    "addr:housenumber": "118",
+    "addr:street": "Quyết Tiến",
+    "amenity": "cafe",
+    "cuisine": "tea;coffee_shop",
+    "email": "vandinhgl.vn@gmail.com",
+    "internet_access": "wlan",
+    "name": "Coffee 118_QT",
+    "phone": "01675069879"
+  }
+},
+{
+  "type": "node",
+  "id": 5877099885,
+  "lat": 13.9708188,
+  "lon": 107.9991739,
+  "tags": {
+    "addr:street": "Thống Nhất",
+    "amenity": "place_of_worship",
+    "denomination": "mahayana",
+    "name": "Chùa Bửu Hải",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "node",
+  "id": 5941662185,
+  "lat": 14.5297458,
+  "lon": 107.9423038,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Dl htx hải tình",
+    "name:vi": "Dl htx hải tình"
+  }
+},
+{
+  "type": "node",
+  "id": 5941662585,
+  "lat": 14.6648388,
+  "lon": 107.8384380,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Dl hàlo",
+    "name:vi": "Dl hàlo"
+  }
+},
+{
+  "type": "node",
+  "id": 5963216811,
+  "lat": 14.3597051,
+  "lon": 107.9969796,
+  "tags": {
+    "addr:housenumber": "95",
+    "addr:street": "Nguyen Sinh Sac",
+    "amenity": "cafe",
+    "description": "Cafe and student meetup",
+    "name": "Journey Café",
+    "phone": "0914639099"
+  }
+},
+{
+  "type": "node",
+  "id": 5966372473,
+  "lat": 14.3575491,
+  "lon": 108.0052717,
+  "tags": {
+    "amenity": "restaurant",
+    "description": "vegetarian restaurant",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "only",
+    "name": "Quán Chay An Lạc - vegetarian food",
+    "opening_hours": "Mo-Su 06:00-19:45",
+    "phone": "+84 369 089 155"
+  }
+},
+{
+  "type": "node",
+  "id": 5966372800,
+  "lat": 14.3580723,
+  "lon": 108.0029714,
+  "tags": {
+    "amenity": "restaurant",
+    "description": "vegetarian restaurant",
+    "diet:vegetarian": "only",
+    "fixme": "the phone number seems wrong",
+    "name": "Quan chay Vạn Sự Bình Tâm - vegetarian food",
+    "opening_hours": "Mo-Su 06:00-20:00",
+    "phone": "+84 1655 115555"
+  }
+},
+{
+  "type": "node",
+  "id": 5997147685,
+  "lat": 13.9829348,
+  "lon": 108.0059890,
+  "tags": {
+    "historic": "monument",
+    "name": "Quảng trường Đại Đoàn Kết",
+    "name:vi": "Quảng trường Đại Đoàn Kết",
+    "name:vi-Hani": "廣場大團結",
+    "name:zh": "大團結廣場"
+  }
+},
+{
+  "type": "node",
+  "id": 6008999548,
+  "lat": 14.0915131,
+  "lon": 107.9373573,
+  "tags": {
+    "name": "Thác Bà",
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 6052877571,
+  "lat": 15.0690415,
+  "lon": 107.9749364,
+  "tags": {
+    "alt_name": "Núi Ngoc Linh",
+    "ele": "2598",
+    "name": "Núi Ngok Linh",
+    "natural": "peak",
+    "prominence": "2208",
+    "source:prominence": "2598-390 (Khe Sanh)",
+    "wikidata": "Q7022474"
+  }
+},
+{
+  "type": "node",
+  "id": 6053632591,
+  "lat": 14.1630702,
+  "lon": 108.1570549,
+  "tags": {
+    "name": "Coon Village",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 6053669985,
+  "lat": 14.1342207,
+  "lon": 108.1253102,
+  "tags": {
+    "name": "Ky Sa Coon",
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 6191911585,
+  "lat": 14.3526525,
+  "lon": 108.0155156,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Adam eva cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 6197309185,
+  "lat": 14.3498314,
+  "lon": 108.0071366,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Mamut"
+  }
+},
+{
+  "type": "node",
+  "id": 6198172585,
+  "lat": 14.3486794,
+  "lon": 108.0154332,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Am thuc agong"
+  }
+},
+{
+  "type": "node",
+  "id": 6231555787,
+  "lat": 14.3497256,
+  "lon": 108.0057889,
+  "tags": {
+    "amenity": "fast_food",
+    "branch": "Kon Tum",
+    "brand": "Jollibee",
+    "brand:wikidata": "Q37614",
+    "cuisine": "burger",
+    "name": "Jollibee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6231555788,
+  "lat": 14.4475614,
+  "lon": 107.7259722,
+  "tags": {
+    "name:en": "Waterfall",
+    "name:fr": "Cascade",
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 6231557086,
+  "lat": 14.4087257,
+  "lon": 107.7917131,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Coffe lake view",
+    "name:fr": "Café vue lac"
+  }
+},
+{
+  "type": "node",
+  "id": 6231557087,
+  "lat": 14.4473603,
+  "lon": 107.7257552,
+  "tags": {
+    "name:en": "Wild camping site",
+    "name:fr": "Bivouac sauvage camping",
+    "tourism": "camp_site"
+  }
+},
+{
+  "type": "node",
+  "id": 6231564185,
+  "lat": 14.4089930,
+  "lon": 107.7931279,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Bo ho",
+    "name:en": "Coffe",
+    "name:fr": "Café"
+  }
+},
+{
+  "type": "node",
+  "id": 6265954090,
+  "lat": 13.9767584,
+  "lon": 107.9987576,
+  "tags": {
+    "amenity": "fast_food",
+    "cuisine": "savory_pancakes;crepe;coffee_shop;ice_cream",
+    "internet_access": "wlan",
+    "name": "Nâu cha"
+  }
+},
+{
+  "type": "node",
+  "id": 6265954091,
+  "lat": 13.9651008,
+  "lon": 108.0062610,
+  "tags": {
+    "amenity": "place_of_worship"
+  }
+},
+{
+  "type": "node",
+  "id": 6267900185,
+  "lat": 14.0336147,
+  "lon": 108.0001039,
+  "tags": {
+    "amenity": "restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 6267900685,
+  "lat": 14.0337921,
+  "lon": 107.9995849,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Tơ Nưng"
+  }
+},
+{
+  "type": "node",
+  "id": 6268941990,
+  "lat": 13.9770338,
+  "lon": 108.0132693,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Note Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 6297338786,
+  "lat": 15.0884326,
+  "lon": 107.7356482,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "Tea Acoustic"
+  }
+},
+{
+  "type": "node",
+  "id": 6298395785,
+  "lat": 14.9231771,
+  "lon": 107.7180166,
+  "tags": {
+    "name:en": "nha nghi",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 6300509886,
+  "lat": 14.7258747,
+  "lon": 107.6898144,
+  "tags": {
+    "amenity": "restaurant",
+    "name:en": "Com and Bun"
+  }
+},
+{
+  "type": "node",
+  "id": 6300514685,
+  "lat": 14.1042242,
+  "lon": 107.4545245,
+  "tags": {
+    "name:en": "hotel duy khanh",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6305260893,
+  "lat": 14.3292517,
+  "lon": 108.0635705,
+  "tags": {
+    "name": "Homestay kon k' tu",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 6328614785,
+  "lat": 13.9802929,
+  "lon": 107.9942943,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Banh",
+    "name:en": "Bánh mì chay",
+    "name:pl": "Bánh mì chay",
+    "name:vi": "Bánh mì chay"
+  }
+},
+{
+  "type": "node",
+  "id": 6409080385,
+  "lat": 14.6436217,
+  "lon": 107.8452236,
+  "tags": {
+    "amenity": "restaurant",
+    "name:en": "Pho and Amazing Spring Rolls (Goi Quân)"
+  }
+},
+{
+  "type": "node",
+  "id": 6438157485,
+  "lat": 14.6944677,
+  "lon": 108.3726094,
+  "tags": {
+    "name": "đường nhỏ khó đi",
+    "name:en": "damaged path",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 6438284383,
+  "lat": 14.7083742,
+  "lon": 107.6915891,
+  "tags": {
+    "name": "Hà Thành",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6470249477,
+  "lat": 13.9795756,
+  "lon": 107.9845083,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Nhà hàng Bảy Nhuần"
+  }
+},
+{
+  "type": "node",
+  "id": 6470252470,
+  "lat": 13.9786826,
+  "lon": 107.9846887,
+  "tags": {
+    "name": "Nhà Nghỉ Vân Anh",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6470254114,
+  "lat": 13.9785163,
+  "lon": 107.9839218,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Nhà Hàng Đông Kinh"
+  }
+},
+{
+  "type": "node",
+  "id": 6470257748,
+  "lat": 13.9797113,
+  "lon": 107.9860600,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Bánh canh Ngọc Ánh"
+  }
+},
+{
+  "type": "node",
+  "id": 6470264558,
+  "lat": 13.9781749,
+  "lon": 107.9872193,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Cafe Chim Ưng"
+  }
+},
+{
+  "type": "node",
+  "id": 6470264594,
+  "lat": 13.9783018,
+  "lon": 107.9869938,
+  "tags": {
+    "name": "KS Thanh Bình",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6470271302,
+  "lat": 13.9799389,
+  "lon": 107.9873005,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Cafe LAN"
+  }
+},
+{
+  "type": "node",
+  "id": 6470283732,
+  "lat": 13.9802672,
+  "lon": 107.9894793,
+  "tags": {
+    "name": "Khách sạn Relax",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6470284342,
+  "lat": 13.9803373,
+  "lon": 107.9897184,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Gcafe GiaLai Office"
+  }
+},
+{
+  "type": "node",
+  "id": 6470285566,
+  "lat": 13.9792429,
+  "lon": 107.9895560,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Quán SƠN, 196 Tăng Bạt Hổ"
+  }
+},
+{
+  "type": "node",
+  "id": 6470299376,
+  "lat": 13.9806025,
+  "lon": 107.9909698,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Chùa Phước Minh",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "node",
+  "id": 6470299693,
+  "lat": 13.9803891,
+  "lon": 107.9910985,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Trà sữa túi lọc Cozy"
+  }
+},
+{
+  "type": "node",
+  "id": 6470303949,
+  "lat": 13.9803448,
+  "lon": 107.9917422,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Trà sữa MEO"
+  }
+},
+{
+  "type": "node",
+  "id": 6470307203,
+  "lat": 13.9805531,
+  "lon": 107.9919810,
+  "tags": {
+    "amenity": "cafe",
+    "name": "81 Coffee-Juice Box & Ice Cream (185PĐP-Pleiku-Gialai)"
+  }
+},
+{
+  "type": "node",
+  "id": 6473153955,
+  "lat": 13.9760679,
+  "lon": 107.9883466,
+  "tags": {
+    "amenity": "cafe",
+    "name": "cafee"
+  }
+},
+{
+  "type": "node",
+  "id": 6473158632,
+  "lat": 13.9763667,
+  "lon": 107.9888586,
+  "tags": {
+    "name": "Khach San",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6473159154,
+  "lat": 13.9763326,
+  "lon": 107.9887709,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "CÔ TRANG - BÚN BÒ GÂN"
+  }
+},
+{
+  "type": "node",
+  "id": 6473159630,
+  "lat": 13.9761392,
+  "lon": 107.9903517,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "BẾP NHÀ MÌNH"
+  }
+},
+{
+  "type": "node",
+  "id": 6473159853,
+  "lat": 13.9762738,
+  "lon": 107.9885556,
+  "tags": {
+    "amenity": "cafe",
+    "name": "CAFFEE Thùy Dung"
+  }
+},
+{
+  "type": "node",
+  "id": 6473182566,
+  "lat": 13.9774084,
+  "lon": 107.9928191,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Quán Cơm Quê Hương"
+  }
+},
+{
+  "type": "node",
+  "id": 6473188605,
+  "lat": 13.9772158,
+  "lon": 107.9934844,
+  "tags": {
+    "amenity": "cafe",
+    "branch": "Gia Lai",
+    "brand": "Ding Tea",
+    "brand:wikidata": "Q112123475",
+    "cuisine": "bubble_tea",
+    "name": "Ding Tea",
+    "name:en": "Ding Tea",
+    "name:zh": "薡茶",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6473189376,
+  "lat": 13.9779709,
+  "lon": 107.9931890,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Cafe New Star"
+  }
+},
+{
+  "type": "node",
+  "id": 6473190258,
+  "lat": 13.9769860,
+  "lon": 107.9930176,
+  "tags": {
+    "amenity": "cafe",
+    "name": "QUÁN CÀ PHÊ 151"
+  }
+},
+{
+  "type": "node",
+  "id": 6473191947,
+  "lat": 13.9772924,
+  "lon": 107.9937438,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Tropic coffee roasters"
+  }
+},
+{
+  "type": "node",
+  "id": 6475729779,
+  "lat": 13.9705564,
+  "lon": 107.9885768,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "LẨU NƯỚNG 112 - Hot Pot & BBQ"
+  }
+},
+{
+  "type": "node",
+  "id": 6475730813,
+  "lat": 13.9704718,
+  "lon": 107.9886982,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "quán 47"
+  }
+},
+{
+  "type": "node",
+  "id": 6475733926,
+  "lat": 13.9691840,
+  "lon": 107.9889883,
+  "tags": {
+    "name": "ABC HOTEL",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6475735983,
+  "lat": 13.9684950,
+  "lon": 107.9876967,
+  "tags": {
+    "amenity": "cafe",
+    "branch": "Ty TNHH Một Thành Viên Vạn Vạn Phước   Gia Lai",
+    "brand": "Cộng Cà Phê",
+    "brand:wikidata": "Q63864181",
+    "cuisine": "coffee_shop;vietnamese",
+    "name": "Cộng Cà Phê",
+    "name:vi": "Cộng Cà Phê",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6478304849,
+  "lat": 13.9624441,
+  "lon": 107.9835210,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Diễm Xưa Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 6478307366,
+  "lat": 13.9613628,
+  "lon": 107.9841300,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Bún phở Cô Năm"
+  }
+},
+{
+  "type": "node",
+  "id": 6478315504,
+  "lat": 13.9684868,
+  "lon": 107.9921273,
+  "tags": {
+    "name": "Nhà Nghỉ Bình Minh",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6478316916,
+  "lat": 13.9686046,
+  "lon": 107.9928253,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "quán dốc - bún đậu mẹt hà nội"
+  }
+},
+{
+  "type": "node",
+  "id": 6478317407,
+  "lat": 13.9680026,
+  "lon": 107.9939548,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Cà phê Hoàng Khánh"
+  }
+},
+{
+  "type": "node",
+  "id": 6478346936,
+  "lat": 13.9673091,
+  "lon": 107.9928500,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Bobo quán"
+  }
+},
+{
+  "type": "node",
+  "id": 6478349120,
+  "lat": 13.9673275,
+  "lon": 107.9930776,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Quán Trà sữa Cosmos"
+  }
+},
+{
+  "type": "node",
+  "id": 6478366146,
+  "lat": 13.9681053,
+  "lon": 107.9933527,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Nhà Hàng Candle"
+  }
+},
+{
+  "type": "node",
+  "id": 6478373473,
+  "lat": 13.9683307,
+  "lon": 107.9941398,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Coffe CP10"
+  }
+},
+{
+  "type": "node",
+  "id": 6478389403,
+  "lat": 13.9658785,
+  "lon": 107.9917893,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Ơi Quán Siêu Ăn Vặt"
+  }
+},
+{
+  "type": "node",
+  "id": 6478397985,
+  "lat": 13.9663009,
+  "lon": 107.9933839,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Trà sữa & ăn vặt KISS ME"
+  }
+},
+{
+  "type": "node",
+  "id": 6483448047,
+  "lat": 13.9654281,
+  "lon": 107.9919621,
+  "tags": {
+    "name": "Nhà Nghỉ Bình 133",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 6483448199,
+  "lat": 13.9653931,
+  "lon": 107.9923623,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Quán Nướng Sinh Viên"
+  }
+},
+{
+  "type": "node",
+  "id": 6483449096,
+  "lat": 13.9654925,
+  "lon": 107.9921537,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Quán Cafe K Cộng"
+  }
+},
+{
+  "type": "node",
+  "id": 6483450804,
+  "lat": 13.9656176,
+  "lon": 107.9917744,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Ca Fe 123"
+  }
+},
+{
+  "type": "node",
+  "id": 6483451953,
+  "lat": 13.9655348,
+  "lon": 107.9948367,
+  "tags": {
+    "amenity": "cafe",
+    "branch": "Ty TNHH Song Minh Gia Lai",
+    "brand": "Cộng Cà Phê",
+    "brand:wikidata": "Q63864181",
+    "cuisine": "coffee_shop;vietnamese",
+    "name": "Cộng Cà Phê",
+    "name:vi": "Cộng Cà Phê",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6483452561,
+  "lat": 13.9655010,
+  "lon": 107.9954375,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Trung Tâm Dạy Pha Chế Gia Lai"
+  }
+},
+{
+  "type": "node",
+  "id": 6483454861,
+  "lat": 13.9667192,
+  "lon": 107.9960946,
+  "tags": {
+    "amenity": "cafe",
+    "name": "New Cafe - Giải Khát"
+  }
+},
+{
+  "type": "node",
+  "id": 6483456812,
+  "lat": 13.9665031,
+  "lon": 107.9961563,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Bánh canh Cô Bảy"
+  }
+},
+{
+  "type": "node",
+  "id": 6483457918,
+  "lat": 13.9674140,
+  "lon": 108.0005204,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Garden Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 6483461064,
+  "lat": 13.9635236,
+  "lon": 107.9914586,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Fast Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 6483461897,
+  "lat": 13.9648641,
+  "lon": 107.9916571,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Cà Phê Ng.Chất RX"
+  }
+},
+{
+  "type": "node",
+  "id": 6483464922,
+  "lat": 13.9642081,
+  "lon": 107.9917805,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Quán Cafe Giải Khát 167"
+  }
+},
+{
+  "type": "node",
+  "id": 6483465654,
+  "lat": 13.9645465,
+  "lon": 107.9916571,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Cà Phê Sunrise 159 Lê Thánh Tôn Pleiku Gia Lai"
+  }
+},
+{
+  "type": "node",
+  "id": 6483465699,
+  "lat": 13.9646585,
+  "lon": 107.9918985,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Cà Phê Ruby Koi"
+  }
+},
+{
+  "type": "node",
+  "id": 6483470624,
+  "lat": 13.9616104,
+  "lon": 107.9916249,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Quán Ốc Bi"
+  }
+},
+{
+  "type": "node",
+  "id": 6571328585,
+  "lat": 14.3461569,
+  "lon": 108.0126058,
+  "tags": {
+    "addr:housenumber": "14",
+    "addr:street": "Nguyễn Huệ",
+    "amenity": "place_of_worship",
+    "name": "Hội dòng Ảnh Phép Lạ (Ảnh Vảy)"
+  }
+},
+{
+  "type": "node",
+  "id": 6572332090,
+  "lat": 14.3602308,
+  "lon": 107.9744136,
+  "tags": {
+    "addr:street": "Hai Bà Trưng",
+    "amenity": "restaurant",
+    "name": "Chè trái cây, đậu ngự, đậu đỏ, thập cẩm, đậu hà lan, đậu xanh hột, đậu xanh đánh",
+    "shop": "beverages"
+  }
+},
+{
+  "type": "node",
+  "id": 6572558985,
+  "lat": 14.3591486,
+  "lon": 107.9091261,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Nhà Thờ Plei Jodrap",
+    "name:en": "Plei Jodrap Church"
+  }
+},
+{
+  "type": "node",
+  "id": 6577789686,
+  "lat": 14.0010166,
+  "lon": 108.0518827,
+  "tags": {
+    "addr:street": "Dương Minh Châu",
+    "amenity": "place_of_worship",
+    "name": "Nhà thờ Trà Đa",
+    "name:en": "Tra Da Church"
+  }
+},
+{
+  "type": "node",
+  "id": 6592782087,
+  "lat": 14.7413035,
+  "lon": 107.4820715,
+  "tags": {
+    "addr:street": "18B",
+    "amenity": "restaurant",
+    "name:en": "Utama Restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 6645630985,
+  "lat": 14.9324389,
+  "lon": 107.7179151,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Church"
+  }
+},
+{
+  "type": "node",
+  "id": 6813397785,
+  "lat": 13.9569300,
+  "lon": 107.9828185,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Chùa Minh Đạo, Diên Phú, Thành phố Pleiku, Gia Lai, Vietnam",
+    "name:en": "Buddhist Temple"
+  }
+},
+{
+  "type": "node",
+  "id": 6813401785,
+  "lat": 14.6270429,
+  "lon": 107.8490500,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "CHÙA THIỀN LÂM, TT. Đắk Tô, Đắk Tô, Kon Tum, Vietnam",
+    "name:en": "Buddhist Temple",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "node",
+  "id": 6966288909,
+  "lat": 15.4427264,
+  "lon": 107.7940129,
+  "tags": {
+    "amenity": "fast_food",
+    "cuisine": "steak_house;local",
+    "name": "Đoi gio"
+  }
+},
+{
+  "type": "node",
+  "id": 6970601185,
+  "lat": 14.4817440,
+  "lon": 108.2140442,
+  "tags": {
+    "amenity": "restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 6978672286,
+  "lat": 13.9783790,
+  "lon": 108.0144463,
+  "tags": {
+    "name": "Hani House. Nice for bicycle",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7005760881,
+  "lat": 14.5836980,
+  "lon": 108.2792780,
+  "tags": {
+    "name:en": "La Maison Homestay",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 7051027785,
+  "lat": 15.0949051,
+  "lon": 107.3823762,
+  "tags": {
+    "tourism": "wilderness_hut"
+  }
+},
+{
+  "type": "node",
+  "id": 7090257288,
+  "lat": 13.9693812,
+  "lon": 107.9961152,
+  "tags": {
+    "addr:housenumber": "42",
+    "addr:street": "Đống Đa",
+    "internet_access": "wlan",
+    "name": "Lakeview Homestay",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 7093013887,
+  "lat": 15.0909214,
+  "lon": 107.7378725,
+  "tags": {
+    "amenity": "restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 7093019586,
+  "lat": 15.0896455,
+  "lon": 107.7361783,
+  "tags": {
+    "amenity": "internet_cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 7095010285,
+  "lat": 14.9028923,
+  "lon": 107.7120178,
+  "tags": {
+    "amenity": "restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 7095423085,
+  "lat": 14.7065787,
+  "lon": 107.6908008,
+  "tags": {
+    "amenity": "restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 7095427085,
+  "lat": 14.7065728,
+  "lon": 107.6902779,
+  "tags": {
+    "amenity": "cafe",
+    "name:en": "No. 1"
+  }
+},
+{
+  "type": "node",
+  "id": 7100740785,
+  "lat": 14.1759222,
+  "lon": 107.4598740,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 7100836385,
+  "lat": 14.1737149,
+  "lon": 107.4595276,
+  "tags": {
+    "amenity": "restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 7100836485,
+  "lat": 14.1731535,
+  "lon": 107.4596269,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 7100836487,
+  "lat": 14.1494242,
+  "lon": 107.4602777,
+  "tags": {
+    "amenity": "restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 7100836585,
+  "lat": 14.1525184,
+  "lon": 107.4578958,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 7100836586,
+  "lat": 14.1507223,
+  "lon": 107.4592471,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 7100836587,
+  "lat": 14.1057205,
+  "lon": 107.4544897,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 7100869885,
+  "lat": 14.0423618,
+  "lon": 107.4575134,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 7101317886,
+  "lat": 13.9297828,
+  "lon": 107.5479682,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 7196618186,
+  "lat": 14.7333667,
+  "lon": 107.6912711,
+  "tags": {
+    "name:en": "Epic totally empty 12 lines road",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 7235315885,
+  "lat": 13.9743254,
+  "lon": 108.0098815,
+  "tags": {
+    "amenity": "restaurant",
+    "name:en": "fried rice"
+  }
+},
+{
+  "type": "node",
+  "id": 7244761386,
+  "lat": 14.7071581,
+  "lon": 107.6910752,
+  "tags": {
+    "internet_access": "wlan",
+    "name:en": "Gia Khang hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 7281958385,
+  "lat": 14.7413868,
+  "lon": 107.4822044,
+  "tags": {
+    "name:de": "Günstiges Gästehaus",
+    "name:en": "Cheap and simple guesthouse",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 7554177585,
+  "lat": 13.9650890,
+  "lon": 108.0062791,
+  "tags": {
+    "addr:housenumber": "348",
+    "addr:postcode": "600000",
+    "addr:street": "Nguyễn Viết Xuân",
+    "amenity": "place_of_worship",
+    "name": "Minh Thanh Pagoda",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "node",
+  "id": 7691844288,
+  "lat": 14.4742178,
+  "lon": 107.9358315,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Chua Khanh Phuoc",
+    "name:en": "Khanh Phuoc Pagoda",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "node",
+  "id": 7733872686,
+  "lat": 14.9108298,
+  "lon": 107.9753701,
+  "tags": {
+    "name:en": "Multi-Tiered Waterfall",
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 7733956885,
+  "lat": 15.1928950,
+  "lon": 108.1166055,
+  "tags": {
+    "name:en": "5 Tiered Waterfall",
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 7742499685,
+  "lat": 14.5733784,
+  "lon": 108.4468762,
+  "tags": {
+    "name": "Khu bảo tồn thiên nhiên Kon Chư Răng",
+    "name:en": "Kon Chu Rang Nature Reserve",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 7773508785,
+  "lat": 14.0632435,
+  "lon": 108.0264756,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name:en": "Tien Son Church (Nha Tho Tien Son)"
+  }
+},
+{
+  "type": "node",
+  "id": 7790401185,
+  "lat": 14.0217837,
+  "lon": 107.6050329,
+  "tags": {
+    "name": "Thác Mơ",
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 7804206061,
+  "lat": 14.6039058,
+  "lon": 108.2884243,
+  "tags": {
+    "name": "Cổng chào chợ Kon Plông",
+    "name:en": "Arch of Kon Plong Market",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 7811691285,
+  "lat": 15.2404128,
+  "lon": 108.1760472,
+  "tags": {
+    "amenity": "restaurant",
+    "internet_access": "wlan",
+    "name": "Thanh",
+    "name:en": "Thanh tinh",
+    "name:vi": "Thanh Tinh"
+  }
+},
+{
+  "type": "node",
+  "id": 7811731385,
+  "lat": 15.2571582,
+  "lon": 108.1508532,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "Yến",
+    "name:en": "Yen"
+  }
+},
+{
+  "type": "node",
+  "id": 7911938685,
+  "lat": 14.5792425,
+  "lon": 108.2749585,
+  "tags": {
+    "name": "Dakke Mang Den hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 8145651191,
+  "lat": 15.1580559,
+  "lon": 108.1252916,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Cafe Trung Trực",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8169554783,
+  "lat": 15.4357353,
+  "lon": 107.8046671,
+  "tags": {
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 8404639119,
+  "lat": 15.0168265,
+  "lon": 108.4170553,
+  "tags": {
+    "name:en": "Son Tay Viewpoint",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8404664318,
+  "lat": 15.0060500,
+  "lon": 108.3789481,
+  "tags": {
+    "name:en": "Valley Viewpoint",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8404664417,
+  "lat": 15.0271730,
+  "lon": 108.4637287,
+  "tags": {
+    "name:en": "Hillside Viewpoint of Tra Khuc River",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8404665017,
+  "lat": 14.9985545,
+  "lon": 108.3514302,
+  "tags": {
+    "name:en": "Viewpoint and Son Tay Graveyard",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8404665018,
+  "lat": 14.8708229,
+  "lon": 108.3689843,
+  "tags": {
+    "name:en": "Rice Field Viewpoint on Border Between Quang Ngai and Kon Tum",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8404665117,
+  "lat": 14.9535479,
+  "lon": 108.3447711,
+  "tags": {
+    "name:en": "Valley and Rice Field Viewpoint",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8404665118,
+  "lat": 14.7300488,
+  "lon": 108.3511211,
+  "tags": {
+    "name:en": "Road Doesn’t End Here! It Connects to Road to Mang Den!",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8404665217,
+  "lat": 14.7697795,
+  "lon": 108.3870714,
+  "tags": {
+    "name:en": "Mountain Viewpoint",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8404665417,
+  "lat": 14.7485022,
+  "lon": 108.3867206,
+  "tags": {
+    "name:en": "Don’t Take the Dirt Road to the Left! Stay on the Main Road!",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8404876817,
+  "lat": 14.7211929,
+  "lon": 108.3584230,
+  "tags": {
+    "name:en": "Road From Dak Lo Connects Here",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8404876818,
+  "lat": 14.7042920,
+  "lon": 108.3557064,
+  "tags": {
+    "name:en": "Turn Right For Shorter Route to Mang Den",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8404877117,
+  "lat": 14.6232285,
+  "lon": 108.2938598,
+  "tags": {
+    "name:en": "Lang Nghe Kon Nang Nha Rong",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 8404877317,
+  "lat": 14.5963960,
+  "lon": 108.2869566,
+  "tags": {
+    "name:en": "Nang Homestay",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 8409008717,
+  "lat": 14.7031595,
+  "lon": 108.2439225,
+  "tags": {
+    "name:en": "View of Dak Nghe River",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8409010617,
+  "lat": 14.7254803,
+  "lon": 108.2398308,
+  "tags": {
+    "name:en": "View of Dak Nghe River",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8409010618,
+  "lat": 14.8904225,
+  "lon": 108.2539492,
+  "tags": {
+    "name:en": "Mountain Viewpoint",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8409011017,
+  "lat": 14.7688920,
+  "lon": 108.2277158,
+  "tags": {
+    "name:en": "Dak Tang",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8409011018,
+  "lat": 14.9231722,
+  "lon": 108.2548024,
+  "tags": {
+    "name:en": "Dak Ring",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8409011317,
+  "lat": 14.7696535,
+  "lon": 108.2275794,
+  "tags": {
+    "name:en": "Waterfall Next to the Bridge",
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 8409011318,
+  "lat": 14.8550834,
+  "lon": 108.2459953,
+  "tags": {
+    "name:en": "Blue Suspension Bridge (Cau Treo Xanh Lam)",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8409011319,
+  "lat": 14.9231962,
+  "lon": 108.2547470,
+  "tags": {
+    "name:en": "Dak Rong",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8409011320,
+  "lat": 14.9243282,
+  "lon": 108.2531920,
+  "tags": {
+    "name:en": "Bridge and River Viewpoint",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8415010517,
+  "lat": 14.6814765,
+  "lon": 108.1154710,
+  "tags": {
+    "name:en": "Thac Koi To (Koi To Waterfall)",
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 8415010617,
+  "lat": 14.6768027,
+  "lon": 108.1155849,
+  "tags": {
+    "name:en": "Turn Left for Path to Bottom of Thac Koi To and Right to the Top",
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 8415010618,
+  "lat": 14.5512481,
+  "lon": 108.2614701,
+  "tags": {
+    "name:en": "Great Viewpoint at Sunset",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8417979617,
+  "lat": 14.3676576,
+  "lon": 108.0815819,
+  "tags": {
+    "name:en": "Beautiful Mountain Viewpoint",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8420066417,
+  "lat": 14.7590389,
+  "lon": 108.5260512,
+  "tags": {
+    "name:en": "Great Valley Viewpoint at the Vi O Lak Pass",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 8420066517,
+  "lat": 14.7634393,
+  "lon": 108.5283999,
+  "tags": {
+    "name:en": "Rest Stop and Valley Viewpoint",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 9087725539,
+  "lat": 14.0609578,
+  "lon": 108.0867086,
+  "tags": {
+    "addr:city": "Pleiku",
+    "addr:province": "Gia Lai",
+    "addr:street": "Ngã 4 Xã Nam Yang (NaYa)",
+    "addr:subdistrict": "DakDoa",
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "internet_access:ssid": "NaYa Coffee",
+    "name": "NaYa Coffee",
+    "phone": "0985860506"
+  }
+},
+{
+  "type": "node",
+  "id": 10169201217,
+  "lat": 14.3496785,
+  "lon": 108.0017296,
+  "tags": {
+    "name": "Hao Hao",
+    "name:en": "Hao Hao Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 10647830426,
+  "lat": 14.1351848,
+  "lon": 108.0350853,
+  "tags": {
+    "ele": "1472",
+    "name": "Núi Chư Nâm",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 10647830427,
+  "lat": 14.1447531,
+  "lon": 108.0297200,
+  "tags": {
+    "ele": "1434",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 10682927809,
+  "lat": 14.1019064,
+  "lon": 108.0891972,
+  "tags": {
+    "ele": "859",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 10682927810,
+  "lat": 14.1347041,
+  "lon": 108.0867070,
+  "tags": {
+    "ele": "1215",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 10682927811,
+  "lat": 14.1505847,
+  "lon": 108.0904537,
+  "tags": {
+    "ele": "1233",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 10682927812,
+  "lat": 14.1618872,
+  "lon": 108.0900760,
+  "tags": {
+    "ele": "1191",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 10682927813,
+  "lat": 14.1669013,
+  "lon": 108.0785532,
+  "tags": {
+    "ele": "913",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 10682927814,
+  "lat": 14.1446706,
+  "lon": 108.0851238,
+  "tags": {
+    "ele": "1284",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 10682927815,
+  "lat": 14.1449092,
+  "lon": 108.0786176,
+  "tags": {
+    "ele": "1241",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 10831376907,
+  "lat": 13.9819713,
+  "lon": 107.9995813,
+  "tags": {
+    "addr:city": "Pleiku",
+    "addr:district": "Pleiku",
+    "addr:housenumber": "175",
+    "addr:postcode": "61111",
+    "addr:province": "Gia Lai",
+    "addr:street": "Phan Đình Phùng",
+    "addr:subdistrict": "Tây Sơn",
+    "amenity": "restaurant",
+    "cuisine": "seafood",
+    "diet:seafood": "yes",
+    "name": "Mạnh Hải Sản Gia Lai",
+    "opening_hours": "24/7",
+    "phone": "0971631298",
+    "website": "https://www.facebook.com/manhhaisangialai"
+  }
+},
+{
+  "type": "node",
+  "id": 10859974205,
+  "lat": 13.9700198,
+  "lon": 108.0155972,
+  "tags": {
+    "addr:street": "Trường Chinh",
+    "internet_access": "wlan",
+    "name": "Nhà Nghỉ Thuỳ Dương",
+    "name:en": "Thuy duong motel",
+    "opening_hours": "24/7",
+    "tourism": "motel"
+  }
+},
+{
+  "type": "node",
+  "id": 10904780312,
+  "lat": 14.6564618,
+  "lon": 107.8409410,
+  "tags": {
+    "name:en": "Nhga Nhi cheap",
+    "tourism": "motel"
+  }
+},
+{
+  "type": "node",
+  "id": 11232207041,
+  "lat": 14.3595452,
+  "lon": 108.0216015,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "MaMa Sushi"
+  }
+},
+{
+  "type": "node",
+  "id": 11238071933,
+  "lat": 14.4099561,
+  "lon": 108.4581270,
+  "tags": {
+    "tourism": "motel"
+  }
+},
+{
+  "type": "node",
+  "id": 11245967118,
+  "lat": 14.3499708,
+  "lon": 108.0017528,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Ghế Đẩu"
+  }
+},
+{
+  "type": "node",
+  "id": 11245967229,
+  "lat": 14.3498610,
+  "lon": 108.0335090,
+  "tags": {
+    "addr:city": "Kon Tum",
+    "addr:housenumber": "38",
+    "addr:street": "Bắc Cạn",
+    "addr:subdistrict": "Thắng Lợi",
+    "air_conditioning": "yes",
+    "name": "Konklor Hotel",
+    "phone": "0260 3861 555",
+    "tourism": "hotel",
+    "website": "https://konklorhotel.vn/"
+  }
+},
+{
+  "type": "node",
+  "id": 11245967231,
+  "lat": 14.3401235,
+  "lon": 107.9893959,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Nhà Thờ Giáo Xứ Phương Hoà",
+    "name:en": "Phuong Hoa Catholic Church",
+    "religion": "christian"
+  }
+},
+{
+  "type": "node",
+  "id": 11250446665,
+  "lat": 14.3454122,
+  "lon": 108.0020554,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Indochine Coffee Kon Tum"
+  }
+},
+{
+  "type": "node",
+  "id": 11250446698,
+  "lat": 14.3478342,
+  "lon": 108.0052455,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Nữ Tu Viện Thánh Phao Lô",
+    "name:en": "Convent of Saint Paul",
+    "name:fr": "Couvent Saint-Paul"
+  }
+},
+{
+  "type": "node",
+  "id": 11259490548,
+  "lat": 14.3378930,
+  "lon": 107.9933757,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Chợ phường Nguyễn Trãi",
+    "name:en": "Nguyen Trai ward market"
+  }
+},
+{
+  "type": "node",
+  "id": 11265801165,
+  "lat": 14.4737723,
+  "lon": 107.9331992,
+  "tags": {
+    "historic": "monument"
+  }
+},
+{
+  "type": "node",
+  "id": 11291250654,
+  "lat": 14.3502976,
+  "lon": 108.0151521,
+  "tags": {
+    "addr:housenumber": "86",
+    "addr:street": "Trần Hưng Đạo",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Gác Măng Rê - Kon Tum Kafé",
+    "phone": "0931 082 082"
+  }
+},
+{
+  "type": "node",
+  "id": 11291250655,
+  "lat": 14.3511756,
+  "lon": 108.0187398,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Thien Huong Wedding Restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 11291250660,
+  "lat": 14.3609213,
+  "lon": 108.0213389,
+  "tags": {
+    "addr:street": "Trần Văn Hai",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Làng Việt Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 11291250662,
+  "lat": 14.3583707,
+  "lon": 108.0221788,
+  "tags": {
+    "addr:housenumber": "311",
+    "addr:street": "Trần Văn Hai",
+    "amenity": "restaurant",
+    "name": "Ẩm thực Quảng Ngãi",
+    "name:en": "Quang Ngai cuisine"
+  }
+},
+{
+  "type": "node",
+  "id": 11291250663,
+  "lat": 14.3585793,
+  "lon": 108.0221833,
+  "tags": {
+    "addr:housenumber": "309",
+    "addr:street": "Trần Văn Hai",
+    "name": "Nhà nghỉ Sơn Trà",
+    "name:en": "Son Tra Hostel",
+    "tourism": "hostel"
+  }
+},
+{
+  "type": "node",
+  "id": 11297515371,
+  "lat": 14.3546540,
+  "lon": 108.0023597,
+  "tags": {
+    "amenity": "fast_food",
+    "brand": "Jollibee",
+    "brand:wikidata": "Q37614",
+    "cuisine": "burger",
+    "name": "Jollibee",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11297515404,
+  "lat": 14.3523467,
+  "lon": 108.0046227,
+  "tags": {
+    "addr:housenumber": "212",
+    "addr:street": "Phan Chu Trinh",
+    "amenity": "restaurant",
+    "cuisine": "vietnamese;pancake",
+    "name": "Bán Xèo Cô Hòa"
+  }
+},
+{
+  "type": "node",
+  "id": 11297515405,
+  "lat": 14.3511321,
+  "lon": 108.0034882,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Bún Cua Thúi Xíu",
+    "street_vendor": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11374568526,
+  "lat": 14.7043910,
+  "lon": 107.5627484,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 11374773879,
+  "lat": 14.7029296,
+  "lon": 107.5652402,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Coffee «Ship Tán Nói»",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "node",
+  "id": 11536762467,
+  "lat": 14.3640033,
+  "lon": 108.0182041,
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Chợ hoa Xuân",
+    "name:en": "Tet flower market"
+  }
+},
+{
+  "type": "node",
+  "id": 11576025569,
+  "lat": 14.7080641,
+  "lon": 107.6917977,
+  "tags": {
+    "name": "Phúơng Lâm Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11577877969,
+  "lat": 14.7081589,
+  "lon": 107.6920577,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Bảng Giá",
+    "name:ru": "Фо бо, ба не"
+  }
+},
+{
+  "type": "node",
+  "id": 11577878069,
+  "lat": 14.7079858,
+  "lon": 107.6919959,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Cả fe",
+    "name:ru": "Кофейная"
+  }
+},
+{
+  "type": "node",
+  "id": 11577878070,
+  "lat": 14.7065161,
+  "lon": 107.6906072,
+  "tags": {
+    "amenity": "cafe",
+    "name:ru": "Кофейная"
+  }
+},
+{
+  "type": "node",
+  "id": 11578140469,
+  "lat": 15.4406138,
+  "lon": 107.7933789,
+  "tags": {
+    "amenity": "cafe",
+    "name:ru": "Кофейная"
+  }
+},
+{
+  "type": "node",
+  "id": 11611410065,
+  "lat": 14.0873181,
+  "lon": 108.0513310,
+  "tags": {
+    "ele": "1042",
+    "name": "Núi Chư Jôr",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 11637238532,
+  "lat": 14.6842979,
+  "lon": 107.6111698,
+  "tags": {
+    "alt_name": "Núi Ngoc Hồi",
+    "ele": "990",
+    "name": "Núi Ngok Hồi",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 11638253369,
+  "lat": 14.3599869,
+  "lon": 108.0216845,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Cafe An Bang"
+  }
+},
+{
+  "type": "node",
+  "id": 11638253370,
+  "lat": 14.3599119,
+  "lon": 108.0217047,
+  "tags": {
+    "addr:city": "Kon Tum",
+    "addr:housenumber": "273",
+    "addr:street": "Trần Văn Hai",
+    "addr:subdistrict": "Trường Chinh",
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "Heo Mẹt Phú Thọ",
+    "name:en": "Phu Tho pork tray",
+    "opening_hours": "Mo-Su 09:00-21:00"
+  }
+},
+{
+  "type": "node",
+  "id": 11638253372,
+  "lat": 14.3599169,
+  "lon": 108.0215009,
+  "tags": {
+    "addr:city": "Kon Tum",
+    "addr:housenumber": "246",
+    "addr:street": "Trần Văn Hai",
+    "addr:subdistrict": "Trường Chinh",
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "Bánh xèo Quảng Ngãi",
+    "name:en": "Crispy Vietnamese pancake restaurant",
+    "opening_hours": "Mo-Su 14:00-21:00"
+  }
+},
+{
+  "type": "node",
+  "id": 11638253375,
+  "lat": 14.3417310,
+  "lon": 107.9986696,
+  "tags": {
+    "addr:street": "Đường Lê Văn Việt",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "GreenFit Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 11638253376,
+  "lat": 14.5742426,
+  "lon": 108.3015392,
+  "tags": {
+    "name": "Con đường thông cong",
+    "name:en": "Beautiful curved pine tree path",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 11683118549,
+  "lat": 13.9833095,
+  "lon": 108.0269102,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 11693046937,
+  "lat": 14.0143054,
+  "lon": 107.8183566,
+  "tags": {
+    "name": "Thác Ánh Sáng",
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 11693051212,
+  "lat": 14.0686135,
+  "lon": 107.8250532,
+  "tags": {
+    "name": "Thác Chín Tầng",
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 11694675640,
+  "lat": 14.6924759,
+  "lon": 107.7981627,
+  "tags": {
+    "alt_name": "Núi Ngoc Tụ",
+    "ele": "923",
+    "name": "Núi Ngok Tụ",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 11694675641,
+  "lat": 14.4068017,
+  "lon": 107.9177356,
+  "tags": {
+    "alt_name": "Núi Ngoc Bay",
+    "ele": "691",
+    "name": "Núi Ngok Bay",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 11694675642,
+  "lat": 14.5256378,
+  "lon": 108.0351198,
+  "tags": {
+    "alt_name": "Núi Ngoc Wang",
+    "ele": "1056",
+    "name": "Núi Ngok Wang",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 11714147063,
+  "lat": 15.1936294,
+  "lon": 107.8899264,
+  "tags": {
+    "alt_name": "Núi Ngoc Lum Heo",
+    "ele": "2116",
+    "name": "Núi Ngok Lum Heo",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 11715206377,
+  "lat": 15.2047905,
+  "lon": 107.7138931,
+  "tags": {
+    "ele": "1988",
+    "name": "Núi Ngok Pol Pin Pah",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 11718197851,
+  "lat": 13.9420956,
+  "lon": 108.0233610,
+  "tags": {
+    "ele": "858",
+    "name": "Đồi Chư A",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 11718368019,
+  "lat": 14.1696733,
+  "lon": 107.7303028,
+  "tags": {
+    "alt_name": "Núi Chư Pa",
+    "ele": "1485",
+    "name": "Núi Chư Păh",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 11757415355,
+  "lat": 14.1671507,
+  "lon": 107.6037240,
+  "tags": {
+    "ele": "1327",
+    "name": "Núi Cư Tin",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 11757415356,
+  "lat": 14.1866488,
+  "lon": 107.5952777,
+  "tags": {
+    "ele": "1438",
+    "name": "Núi Cư Grok",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 11757464839,
+  "lat": 14.8168520,
+  "lon": 107.8187299,
+  "tags": {
+    "alt_name": "Núi Ngok Umom",
+    "ele": "1712",
+    "name": "Núi Ngok U Mom",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 11762228130,
+  "lat": 14.5639285,
+  "lon": 108.0591698,
+  "tags": {
+    "ele": "1390",
+    "name": "Núi Ngok Win",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 11762324215,
+  "lat": 15.3123335,
+  "lon": 108.4775394,
+  "tags": {
+    "ele": "1119",
+    "name": "Hòn Giọc",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 11762324216,
+  "lat": 15.2937891,
+  "lon": 108.4266043,
+  "tags": {
+    "ele": "905",
+    "name": "Núi Chấp Vung",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 11772348891,
+  "lat": 15.1591173,
+  "lon": 108.4677708,
+  "tags": {
+    "ele": "1415",
+    "name": "Núi Cà Đam",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 11777400903,
+  "lat": 14.3055699,
+  "lon": 108.3108354,
+  "tags": {
+    "alt_name": "Núi Kong Ngut;Núi Ngứt",
+    "ele": "1588",
+    "name": "Núi Kon N'Gouk",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 11777479997,
+  "lat": 13.9327675,
+  "lon": 108.3730573,
+  "tags": {
+    "alt_name": "Núi Chư Rpan",
+    "ele": "1504",
+    "name": "Núi Kông Rơ Pang",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 11839217091,
+  "lat": 15.2920091,
+  "lon": 108.4673202,
+  "tags": {
+    "ele": "865",
+    "name": "Núi Giờ",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 11839217092,
+  "lat": 15.2985940,
+  "lon": 108.3917510,
+  "tags": {
+    "ele": "1152",
+    "name": "Núi Răng Cưa",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 11839217093,
+  "lat": 15.2395746,
+  "lon": 108.3876693,
+  "tags": {
+    "ele": "1442",
+    "name": "Núi Tà Cút",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 11941200957,
+  "lat": 13.9153178,
+  "lon": 107.7361967,
+  "tags": {
+    "name": "Thác Lệ Kim",
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 11944475210,
+  "lat": 14.6685325,
+  "lon": 108.3331776,
+  "tags": {
+    "alt_name": "Núi Ngoc Boum",
+    "ele": "1488",
+    "name": "Núi Ngok Boum",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 11945933669,
+  "lat": 14.8421273,
+  "lon": 107.9257822,
+  "tags": {
+    "alt_name": "Núi Ngok Cang;Núi Ngoc Cang",
+    "ele": "1702",
+    "name": "Núi Ngok Kang",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 11946310464,
+  "lat": 15.1964612,
+  "lon": 107.7921814,
+  "tags": {
+    "abandoned:amenity": "prison",
+    "building": "yes",
+    "name": "Ngục Đăk Glei",
+    "name:en": "Dak Glei Prison",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "node",
+  "id": 11946450186,
+  "lat": 15.2023678,
+  "lon": 107.5123626,
+  "tags": {
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 11946450196,
+  "lat": 15.2025257,
+  "lon": 107.5106218,
+  "tags": {
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 11948843475,
+  "lat": 14.2330984,
+  "lon": 107.8307676,
+  "tags": {
+    "alt_name": "Thác Ia Ly",
+    "name": "Thác Ya Ly",
+    "name:en": "Yali Falls",
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 11949540736,
+  "lat": 14.8056206,
+  "lon": 108.2057259,
+  "tags": {
+    "name": "Thác Rô Sia",
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 11949656531,
+  "lat": 14.6007747,
+  "lon": 108.2271067,
+  "tags": {
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 11953005117,
+  "lat": 14.6003666,
+  "lon": 108.2981392,
+  "tags": {
+    "ele": "1181",
+    "natural": "peak"
+  }
+},
+{
+  "type": "node",
+  "id": 11965912068,
+  "lat": 14.6114378,
+  "lon": 108.2930603,
+  "tags": {
+    "addr:housenumber": "39",
+    "addr:street": "Huỳnh Thúc Kháng",
+    "name": "Măng Diang Boutique Hotel",
+    "phone": "0981 869 199",
+    "tourism": "hotel",
+    "website": "https://www.mangdiang.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 12001850340,
+  "lat": 14.6014376,
+  "lon": 108.2891846,
+  "tags": {
+    "addr:street": "Võ Nguyên Giáp",
+    "amenity": "cafe",
+    "description": "Meli Coffee là một quán cà phê đầu tiên ở Măng Đen đưa quy trình rang xay trực tiếp vào trong quán để khách hàng có thể hiểu được quy trình chúng tôi làm ra một ly cà phê hoàn hảo.",
+    "name": "Meli Coffee Măng Đen",
+    "opening_hours": "Mo-Su 06:00-22:30",
+    "phone": "0985 345 581"
+  }
+},
+{
+  "type": "node",
+  "id": 12011701244,
+  "lat": 14.7063310,
+  "lon": 107.5507052,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Donla coffe and restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 12011701248,
+  "lat": 14.7023104,
+  "lon": 107.5651294,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 12011701252,
+  "lat": 14.7086495,
+  "lon": 107.5568349,
+  "tags": {
+    "historic": "boundary_stone"
+  }
+},
+{
+  "type": "node",
+  "id": 12035321060,
+  "lat": 13.9759370,
+  "lon": 107.9979666,
+  "tags": {
+    "addr:city": "Pleiku",
+    "addr:district": "ia King",
+    "addr:housenumber": "78",
+    "addr:postcode": "600000",
+    "addr:province": "Gia Lai",
+    "addr:street": "Hoàng Văn Thụ",
+    "addr:subdistrict": "ia King",
+    "amenity": "restaurant",
+    "cuisine": "korean",
+    "diet:non-vegetarian": "yes",
+    "name": "Mì Cay SEOUL Pleiku",
+    "opening_hours": "Mo-Su 08:00-22:00",
+    "phone": "0326 995 068",
+    "website": "https://micayseoul.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 12052349047,
+  "lat": 14.6014376,
+  "lon": 108.2891846,
+  "tags": {
+    "addr:street": "Võ Nguyên Giáp",
+    "amenity": "cafe",
+    "name": "Meli Coffee Măng Đen",
+    "opening_hours": "Mo-Su 06:00-22:30"
+  }
+},
+{
+  "type": "node",
+  "id": 12054210869,
+  "lat": 14.5776758,
+  "lon": 108.2776209,
+  "tags": {
+    "addr:street": "Đường Phạm Văn Đồng",
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "name": "Mountain Lodge Coffee",
+    "name:en": "Mountain Lodge Coffee",
+    "phone": "0379 772 919",
+    "website": "https://mountainlodge.vn/"
+  }
+},
+{
+  "type": "node",
+  "id": 12135022501,
+  "lat": 14.6204622,
+  "lon": 108.3276230,
+  "tags": {
+    "name": "Mơ Niê Farmstay & Café",
+    "tourism": "chalet"
+  }
+},
+{
+  "type": "node",
+  "id": 12208609675,
+  "lat": 14.2811040,
+  "lon": 108.0435011,
+  "tags": {
+    "name": "Cột mốc Chư Hreng",
+    "name:en": "Chu Hreng milestone",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 12400079801,
+  "lat": 14.3502246,
+  "lon": 108.0017724,
+  "tags": {
+    "name": "Window Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 12400599600,
+  "lat": 13.9762428,
+  "lon": 107.9998265,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "C4 19-22"
+  }
+},
+{
+  "type": "node",
+  "id": 12401488001,
+  "lat": 14.3495729,
+  "lon": 108.0035336,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Súp Cua My"
+  }
+},
+{
+  "type": "node",
+  "id": 12401836501,
+  "lat": 14.3485691,
+  "lon": 108.0055908,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Pizza Sami's"
+  }
+},
+{
+  "type": "node",
+  "id": 12526112001,
+  "lat": 14.3516702,
+  "lon": 108.0085352,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Gieo Coffee & Roastery"
+  }
+},
+{
+  "type": "node",
+  "id": 12578872601,
+  "lat": 13.9734949,
+  "lon": 107.9985274,
+  "tags": {
+    "addr:housenumber": "2",
+    "addr:street": "Hoàng Văn Thụ",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Chu Gi"
+  }
+},
+{
+  "type": "node",
+  "id": 12578872701,
+  "lat": 13.9740879,
+  "lon": 107.9982763,
+  "tags": {
+    "addr:street": "Hoàng Văn Thụ",
+    "amenity": "fast_food",
+    "cuisine": "vietnamese",
+    "name": "Phở Cô Liên"
+  }
+},
+{
+  "type": "node",
+  "id": 12578872702,
+  "lat": 13.9746822,
+  "lon": 107.9953919,
+  "tags": {
+    "addr:housenumber": "16B",
+    "addr:street": "Hùng Vương",
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "name": "Tra Sửa Cầu Vồng"
+  }
+},
+{
+  "type": "node",
+  "id": 12581722302,
+  "lat": 13.9723387,
+  "lon": 107.9997338,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Bánh Canh Hiền",
+    "opening_hours": "sunrise+"
+  }
+},
+{
+  "type": "node",
+  "id": 12581722303,
+  "lat": 13.9724988,
+  "lon": 108.0002330,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Phở Thành Phát"
+  }
+},
+{
+  "type": "node",
+  "id": 12581726401,
+  "lat": 13.9781877,
+  "lon": 108.0097759,
+  "tags": {
+    "addr:street": "Phùng Hưng",
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "name": "The Quao"
+  }
+},
+{
+  "type": "node",
+  "id": 12581727501,
+  "lat": 13.9798940,
+  "lon": 107.9924702,
+  "tags": {
+    "addr:housenumber": "85",
+    "addr:street": "Tăng Bạt Hổ",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "internet_access": "wlan",
+    "name": "1986 Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 12584602802,
+  "lat": 13.9740085,
+  "lon": 107.9982999,
+  "tags": {
+    "addr:housenumber": "17-19",
+    "addr:street": "Hoàng Văn Thụ",
+    "amenity": "fast_food",
+    "cuisine": "sandwich;vietnamese",
+    "internet_access": "wlan",
+    "name": "Bánh Mì Lệ"
+  }
+},
+{
+  "type": "node",
+  "id": 12584605001,
+  "lat": 13.9729544,
+  "lon": 107.9965719,
+  "tags": {
+    "amenity": "fast_food",
+    "cuisine": "vietnamese",
+    "internet_access": "wlan",
+    "name": "Bánh Xèo Khánh Hiền"
+  }
+},
+{
+  "type": "node",
+  "id": 12584605002,
+  "lat": 13.9729124,
+  "lon": 108.0016575,
+  "tags": {
+    "addr:housenumber": "198",
+    "addr:street": "Quyết Tiến",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "internet_access": "wlan",
+    "name": "Robu Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 12584605101,
+  "lat": 13.9760092,
+  "lon": 107.9860856,
+  "tags": {
+    "addr:housenumber": "339",
+    "addr:street": "Trần Phú",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "internet_access": "wlan",
+    "name": "Kopic Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 12585001201,
+  "lat": 13.9770358,
+  "lon": 108.0037653,
+  "tags": {
+    "addr:housenumber": "9",
+    "addr:street": "Nguyễn Thái Học",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Cà Phê Thu Hà"
+  }
+},
+{
+  "type": "node",
+  "id": 12585136019,
+  "lat": 13.9781590,
+  "lon": 107.9993963,
+  "tags": {
+    "addr:street": "Trần Phú",
+    "amenity": "fast_food",
+    "name": "Bánh Canh Cá Lóc Huế"
+  }
+},
+{
+  "type": "node",
+  "id": 12586955114,
+  "lat": 14.3491585,
+  "lon": 108.0036367,
+  "tags": {
+    "amenity": "place_of_worship",
+    "denomination": "mahayana",
+    "name": "Điện Thánh Mẫu",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "node",
+  "id": 12587660100,
+  "lat": 14.3454668,
+  "lon": 108.0108839,
+  "tags": {
+    "addr:housenumber": "41",
+    "addr:street": "Nguyễn Huệ",
+    "amenity": "fast_food",
+    "cuisine": "vietnamese",
+    "name": "Bún Khô"
+  }
+},
+{
+  "type": "node",
+  "id": 12587713849,
+  "lat": 14.3510857,
+  "lon": 108.0086799,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Quán 07"
+  }
+},
+{
+  "type": "node",
+  "id": 12587728620,
+  "lat": 13.9700339,
+  "lon": 107.9991580,
+  "tags": {
+    "addr:street": "Thống Nhất",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Kalai Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 12587728621,
+  "lat": 13.9697581,
+  "lon": 107.9995876,
+  "tags": {
+    "addr:street": "Lê Quý Đôn",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Hoa Trang"
+  }
+},
+{
+  "type": "node",
+  "id": 12587737189,
+  "lat": 14.3521436,
+  "lon": 108.0063591,
+  "tags": {
+    "amenity": "fast_food",
+    "cuisine": "juice",
+    "name": "Sinh Tố Kim Liên"
+  }
+},
+{
+  "type": "node",
+  "id": 12587742182,
+  "lat": 13.9722029,
+  "lon": 107.9995456,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Cà Phê Cây Nhãn"
+  }
+},
+{
+  "type": "node",
+  "id": 12587747706,
+  "lat": 13.9704727,
+  "lon": 107.9975398,
+  "tags": {
+    "addr:street": "Nguyễn An Ninh",
+    "amenity": "fast_food",
+    "cuisine": "vietnamese",
+    "fixme": "Added from memory: add name, street number and fix location",
+    "name": "Mì Quảng"
+  }
+},
+{
+  "type": "node",
+  "id": 12588871297,
+  "lat": 14.3564501,
+  "lon": 108.0054443,
+  "tags": {
+    "amenity": "place_of_worship",
+    "denomination": "mahayana",
+    "name": "Chùa Phước Lâm",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "node",
+  "id": 12588882819,
+  "lat": 14.3501924,
+  "lon": 108.0058634,
+  "tags": {
+    "addr:housenumber": "415",
+    "addr:street": "Trần Phú",
+    "amenity": "fast_food",
+    "cuisine": "juice",
+    "name": "Sinh Tố Tin"
+  }
+},
+{
+  "type": "node",
+  "id": 12588900955,
+  "lat": 14.3566747,
+  "lon": 108.0036437,
+  "tags": {
+    "addr:street": "Đống Đa",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "iuChill"
+  }
+},
+{
+  "type": "node",
+  "id": 12590144867,
+  "lat": 14.3518376,
+  "lon": 108.0028072,
+  "tags": {
+    "addr:housenumber": "209",
+    "addr:street": "Lê Hồng Phong",
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "Bánh xèo bún thịt nướng"
+  }
+},
+{
+  "type": "node",
+  "id": 12590146623,
+  "lat": 14.3537863,
+  "lon": 108.0059900,
+  "tags": {
+    "amenity": "place_of_worship",
+    "denomination": "mahayana",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "node",
+  "id": 12593094580,
+  "lat": 14.6077563,
+  "lon": 108.2891712,
+  "tags": {
+    "addr:housenumber": "98",
+    "addr:street": "Đường Võ Nguyên Giáp",
+    "amenity": "restaurant",
+    "cuisine": "vietnamese;noodle",
+    "internet_access": "wlan",
+    "name": "Bánh Canh Cá Lóc Akay 7"
+  }
+},
+{
+  "type": "node",
+  "id": 12593140015,
+  "lat": 14.5614395,
+  "lon": 108.2697562,
+  "tags": {
+    "addr:street": "Quốc lộ 24 cũ",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Rẫy Nhà Lynn",
+    "outdoor_seating": "yes",
+    "toilets": "yes",
+    "toilets:wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 12593214132,
+  "lat": 14.3490983,
+  "lon": 108.0054666,
+  "tags": {
+    "addr:housenumber": "429",
+    "addr:street": "Trần Phú",
+    "amenity": "cafe",
+    "name": "Da Vàng 28"
+  }
+},
+{
+  "type": "node",
+  "id": 12593218690,
+  "lat": 14.6045459,
+  "lon": 108.2878596,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Rẩy Rừng Coffee Roasters",
+    "website": "https://rayrung.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 12594344105,
+  "lat": 14.3444121,
+  "lon": 108.0054163,
+  "tags": {
+    "addr:housenumber": "5",
+    "addr:street": "Hẻm 555 Nguyễn Huệ",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Lynn"
+  }
+},
+{
+  "type": "node",
+  "id": 12595590170,
+  "lat": 14.3468928,
+  "lon": 108.0150572,
+  "tags": {
+    "addr:housenumber": "442",
+    "addr:street": "Đào Duy Từ",
+    "amenity": "fast_food",
+    "name": "Chuối Chiên Chảnh Kim Thanh"
+  }
+},
+{
+  "type": "node",
+  "id": 12595715136,
+  "lat": 14.3496584,
+  "lon": 108.0146086,
+  "tags": {
+    "addr:housenumber": "45",
+    "addr:street": "Trần Cao Vân",
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "Gỏi lá Út Cưng"
+  }
+},
+{
+  "type": "node",
+  "id": 12595718564,
+  "lat": 14.3497138,
+  "lon": 108.0145699,
+  "tags": {
+    "addr:housenumber": "43",
+    "addr:street": "Trần Cao Vân",
+    "amenity": "restaurant",
+    "cuisine": "vietnamese",
+    "name": "Gỏi lá Yến Vy"
+  }
+},
+{
+  "type": "node",
+  "id": 12595736129,
+  "lat": 14.3440764,
+  "lon": 108.0349318,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Làng Hồ Chill"
+  }
+},
+{
+  "type": "node",
+  "id": 12598042541,
+  "lat": 14.4007101,
+  "lon": 107.7976365,
+  "tags": {
+    "addr:housenumber": "64",
+    "addr:street": "Trường Chinh",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "My Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 12598050584,
+  "lat": 14.3625050,
+  "lon": 107.9966442,
+  "tags": {
+    "addr:housenumber": "187",
+    "addr:street": "Hoàng Thị Loan",
+    "amenity": "restaurant",
+    "cuisine": "vietnamese;noodle",
+    "name": "Quán 187"
+  }
+},
+{
+  "type": "node",
+  "id": 12598069686,
+  "lat": 14.5068768,
+  "lon": 107.9229801,
+  "tags": {
+    "addr:housenumber": "209",
+    "addr:street": "Hùng Vương",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Hoàng Trần"
+  }
+},
+{
+  "type": "node",
+  "id": 12602382739,
+  "lat": 14.3291290,
+  "lon": 108.0647288,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop"
+  }
+},
+{
+  "type": "node",
+  "id": 12603022547,
+  "lat": 14.3745622,
+  "lon": 107.9403272,
+  "tags": {
+    "amenity": "place_of_worship",
+    "denomination": "roman_catholic",
+    "name": "Nhà thờ Măng La",
+    "religion": "christian"
+  }
+},
+{
+  "type": "node",
+  "id": 12777715701,
+  "lat": 14.5477513,
+  "lon": 107.9198072,
+  "tags": {
+    "amenity": "place_of_worship",
+    "check_date": "2026-01-27",
+    "name": "Chua Thapky Quang",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "node",
+  "id": 12777722603,
+  "lat": 14.6608158,
+  "lon": 107.8391873,
+  "tags": {
+    "historic": "memorial"
+  }
+},
+{
+  "type": "node",
+  "id": 12799728701,
+  "lat": 14.9879742,
+  "lon": 107.8746950,
+  "tags": {
+    "name": "Thác Siu Puông",
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 12860094719,
+  "lat": 13.9720488,
+  "lon": 107.9994690,
+  "tags": {
+    "addr:city": "PLEIKU",
+    "addr:housenumber": "117a",
+    "addr:province": "Gia Lai",
+    "addr:street": "Thống Nhất",
+    "addr:subdistrict": "Ia kring",
+    "amenity": "restaurant",
+    "cuisine": "japanese",
+    "name": "Kumori Sushi - Quán ăn Nhật Bản tại Pleiku",
+    "opening_hours": "09:30-14:00, 16:30-22:00",
+    "phone": "0766179289",
+    "website": "https://www.facebook.com/profile.php?id=61561645717145"
+  }
+},
+{
+  "type": "node",
+  "id": 12888051201,
+  "lat": 14.4141471,
+  "lon": 107.9706103,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 12888139301,
+  "lat": 14.4173659,
+  "lon": 107.9716892,
+  "tags": {
+    "historic": "memorial"
+  }
+},
+{
+  "type": "node",
+  "id": 12941900901,
+  "lat": 14.9631757,
+  "lon": 108.3115093,
+  "tags": {
+    "email": "dakdrinhlodge@gmail.com",
+    "entrance": "main",
+    "name": "Dak Drinh Lodge",
+    "phone": "+84 369 405 057",
+    "tourism": "alpine_hut",
+    "website": "https://dakdrinhlodge.com"
+  }
+},
+{
+  "type": "node",
+  "id": 12946444345,
+  "lat": 14.3451486,
+  "lon": 108.0040557,
+  "tags": {
+    "addr:city": "Kon Tum",
+    "addr:province": "Kon Tum",
+    "addr:street": "Bạch Đằng",
+    "addr:subdistrict": "Quyết Thắng",
+    "amenity": "restaurant",
+    "cuisine": "regional;vietnamese",
+    "description": "A cultural and culinary venue showcasing traditional Kon Tum food and culture.",
+    "name": "Kon Tum Culinary and Cultural Space",
+    "name:vi": "Không gian văn hoá ẩm thực Kon Tum"
+  }
+},
+{
+  "type": "node",
+  "id": 12982831902,
+  "lat": 14.5943898,
+  "lon": 108.3010814,
+  "tags": {
+    "name": "Cầu dây võng Kon Pring",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 12998873824,
+  "lat": 14.3242464,
+  "lon": 108.0084958,
+  "tags": {
+    "addr:province": "Quảng Ngãi",
+    "addr:subdistrict": "Đăk Rơ Wa",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "An Yên Farm and coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 12998873831,
+  "lat": 14.3455997,
+  "lon": 108.0126100,
+  "tags": {
+    "addr:province": "Quảng Ngãi",
+    "addr:street": "407 Nguyễn Huệ",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Cà phê Ông Ngoại",
+    "name:en": "Grandpa's Coffee"
+  }
+},
+{
+  "type": "node",
+  "id": 13004310326,
+  "lat": 14.8018982,
+  "lon": 107.9433332,
+  "tags": {
+    "tourism": "motel"
+  }
+},
+{
+  "type": "node",
+  "id": 13004314923,
+  "lat": 15.1488279,
+  "lon": 108.1217474,
+  "tags": {
+    "tourism": "motel"
+  }
+},
+{
+  "type": "node",
+  "id": 13004316635,
+  "lat": 14.7495889,
+  "lon": 107.9039561,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 13004321618,
+  "lat": 14.8784558,
+  "lon": 107.9613579,
+  "tags": {
+    "tourism": "motel"
+  }
+},
+{
+  "type": "node",
+  "id": 13006635970,
+  "lat": 15.1817732,
+  "lon": 108.1172745,
+  "tags": {
+    "name:en": "Waterfall by the Road",
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 13011082101,
+  "lat": 14.1245103,
+  "lon": 107.9508869,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Xuân Mai"
+  }
+},
+{
+  "type": "node",
+  "id": 13011082301,
+  "lat": 14.1241725,
+  "lon": 107.9507503,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Coffee Congo"
+  }
+},
+{
+  "type": "node",
+  "id": 13105118510,
+  "lat": 14.0401163,
+  "lon": 107.9998797,
+  "tags": {
+    "artwork_type": "statue",
+    "material": "marble",
+    "name": "Quán Thế Âm",
+    "name:ru": "Гуань Инь",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 13105118511,
+  "lat": 14.0399602,
+  "lon": 107.9997966,
+  "tags": {
+    "amenity": "place_of_worship",
+    "religion": "vietnamese_folk"
+  }
+},
+{
+  "type": "node",
+  "id": 13105153109,
+  "lat": 14.0468591,
+  "lon": 107.9960066,
+  "tags": {
+    "name": "Biển Hồ Pleiku",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "node",
+  "id": 13232254201,
+  "lat": 14.7056819,
+  "lon": 107.6923287,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "bubble_tea",
+    "internet_access": "wlan",
+    "level": "1",
+    "name": "Tea House"
+  }
+},
+{
+  "type": "node",
+  "id": 13485291001,
+  "lat": 14.3769604,
+  "lon": 108.0201163,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2026-01-26",
+    "name": "Vong"
+  }
+},
+{
+  "type": "node",
+  "id": 13485291101,
+  "lat": 14.3769693,
+  "lon": 108.0198559,
+  "tags": {
+    "amenity": "fast_food",
+    "check_date": "2026-01-26"
+  }
+},
+{
+  "type": "node",
+  "id": 13485319501,
+  "lat": 14.3753179,
+  "lon": 108.0203433,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2026-01-26",
+    "name": "Chú Ba"
+  }
+},
+{
+  "type": "node",
+  "id": 13495462801,
+  "lat": 14.3872570,
+  "lon": 108.0224890,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2026-01-26",
+    "cuisine": "coffee_shop"
+  }
+},
+{
+  "type": "node",
+  "id": 13495679401,
+  "lat": 14.3803918,
+  "lon": 108.0277833,
+  "tags": {
+    "check_date": "2026-01-26",
+    "internet_access": "wlan",
+    "name": "Home Sweet Homestay",
+    "phone": "+84 90 529 3818",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 13503110001,
+  "lat": 14.3815566,
+  "lon": 108.0263261,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2026-01-27",
+    "cuisine": "coffee_shop",
+    "name": "Nắng Mai"
+  }
+},
+{
+  "type": "node",
+  "id": 13503110101,
+  "lat": 14.5079938,
+  "lon": 107.9235695,
+  "tags": {
+    "historic": "memorial"
+  }
+},
+{
+  "type": "node",
+  "id": 13503143301,
+  "lat": 14.7061128,
+  "lon": 107.6850129,
+  "tags": {
+    "historic": "memorial"
+  }
+},
+{
+  "type": "node",
+  "id": 13503343801,
+  "lat": 14.5132660,
+  "lon": 107.9206915,
+  "tags": {
+    "amenity": "marketplace",
+    "check_date": "2026-01-27"
+  }
+},
+{
+  "type": "node",
+  "id": 13532380080,
+  "lat": 14.4742617,
+  "lon": 107.9355551,
+  "tags": {
+    "artwork_type": "statue",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 13619513701,
+  "lat": 14.6048227,
+  "lon": 108.2936084,
+  "tags": {
+    "name": "Nhà Đậu Homestay Măng Đen - CS Hoàng Thị Loan",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 13625014623,
+  "lat": 14.3663792,
+  "lon": 107.9957724,
+  "tags": {
+    "air_conditioning": "no",
+    "amenity": "fast_food",
+    "changing_table": "no",
+    "cuisine": "asian",
+    "indoor_seating": "yes",
+    "outdoor_seating": "sidewalk"
+  }
+},
+{
+  "type": "node",
+  "id": 13626060911,
+  "lat": 14.3662482,
+  "lon": 107.9941080,
+  "tags": {
+    "air_conditioning": "yes",
+    "contact:phone": "0260 3933939",
+    "internet_access": "wlan",
+    "name": "Hoang Gia Bao Hotel",
+    "sauna": "no",
+    "swimming_pool": "no",
+    "tourism": "hotel",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 13631074665,
+  "lat": 14.6064420,
+  "lon": 108.2884217,
+  "tags": {
+    "air_conditioning": "no",
+    "amenity": "fast_food",
+    "cuisine": "asian"
+  }
+},
+{
+  "type": "node",
+  "id": 13631079416,
+  "lat": 14.3667930,
+  "lon": 107.9954338,
+  "tags": {
+    "amenity": "fast_food"
+  }
+},
+{
+  "type": "node",
+  "id": 13631086249,
+  "lat": 14.3595906,
+  "lon": 108.0033189,
+  "tags": {
+    "amenity": "internet_cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13631112082,
+  "lat": 14.5992340,
+  "lon": 108.2980992,
+  "tags": {
+    "historic": "wayside_shrine",
+    "religion": "christian"
+  }
+},
+{
+  "type": "node",
+  "id": 13631112083,
+  "lat": 14.9263195,
+  "lon": 107.7172080,
+  "tags": {
+    "amenity": "fast_food"
+  }
+},
+{
+  "type": "node",
+  "id": 13631112755,
+  "lat": 14.5936044,
+  "lon": 108.2871380,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "asian"
+  }
+},
+{
+  "type": "node",
+  "id": 13631114895,
+  "lat": 14.6060629,
+  "lon": 108.2882815,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 13637816001,
+  "lat": 14.3834742,
+  "lon": 107.9786376,
+  "tags": {
+    "amenity": "fast_food",
+    "check_date": "2026-03-11",
+    "name": "Banh Canh"
+  }
+},
+{
+  "type": "node",
+  "id": 13638164301,
+  "lat": 14.7060246,
+  "lon": 107.6861937,
+  "tags": {
+    "artwork_type": "sculpture",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 13760094801,
+  "lat": 14.4971481,
+  "lon": 107.9234394,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2026-04-25",
+    "cuisine": "vietnamese",
+    "internet_access": "wlan",
+    "name": "Com Binh Danh"
+  }
+},
+{
+  "type": "node",
+  "id": 13760251201,
+  "lat": 14.0169837,
+  "lon": 107.9918223,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2026-04-25",
+    "name": "Ghe Thu Thao"
+  }
+},
+{
+  "type": "node",
+  "id": 13760251301,
+  "lat": 14.0168514,
+  "lon": 107.9918365,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2026-04-25",
+    "name": "Lan Huong"
+  }
+},
+{
+  "type": "node",
+  "id": 13917258401,
+  "lat": 14.1019292,
+  "lon": 107.9734607,
+  "tags": {
+    "amenity": "restaurant",
+    "check_date": "2026-06-07",
+    "internet_access": "wlan",
+    "name": "Pho Bat Dan"
+  }
+},
+{
+  "type": "node",
+  "id": 13919410101,
+  "lat": 13.9826028,
+  "lon": 108.0091199,
+  "tags": {
+    "amenity": "cafe",
+    "check_date": "2026-06-08",
+    "cuisine": "coffee_shop",
+    "name": "MaBu"
+  }
+},
+{
+  "type": "node",
+  "id": 14026275127,
+  "lat": 14.6201785,
+  "lon": 108.2425256,
+  "tags": {
+    "amenity": "cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 14026275128,
+  "lat": 14.6200967,
+  "lon": 108.2422708,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 14026275140,
+  "lat": 14.6202745,
+  "lon": 108.2423848,
+  "tags": {
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 14026275211,
+  "lat": 14.6007808,
+  "lon": 108.2277669,
+  "tags": {
+    "waterway": "waterfall"
+  }
+},
+{
+  "type": "node",
+  "id": 14031236401,
+  "lat": 14.3492732,
+  "lon": 108.0022592,
+  "tags": {
+    "amenity": "restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 14069957959,
+  "lat": 14.6076395,
+  "lon": 108.2903701,
+  "tags": {
+    "addr:city": "Quảng Ngãi",
+    "addr:country": "VN",
+    "addr:housenumber": "154",
+    "addr:street": "Đường Võ Thị Sáu",
+    "amenity": "cafe",
+    "covered": "no",
+    "craft": "coffee_roaster",
+    "cuisine": "coffee_shop",
+    "description": "Trung tâm đào tạo cà phê chuẩn SCA và điểm trải nghiệm cà phê tại vùng trồng Măng Đen",
+    "internet_access": "wlan",
+    "internet_access:fee": "customers",
+    "name": "Stone Village Coffee Lab",
+    "opening_hours": "Mo-Su 08:00-17:00",
+    "outdoor_seating": "yes",
+    "phone": "+84 909 667 003",
+    "website": "https://stonevillagelab.edu.vn",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 14089032901,
+  "lat": 14.3445402,
+  "lon": 107.9904176,
+  "tags": {
+    "name:ru": "Nha Rong Houses New (открыто А.Слунтер)",
+    "tourism": "viewpoint"
+  }
+},
+{
+  "type": "node",
+  "id": 14152751601,
+  "lat": 14.4560477,
+  "lon": 108.1572136,
+  "tags": {
+    "amenity": "restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 14152842904,
+  "lat": 14.5914253,
+  "lon": 108.2830853,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 14152843001,
+  "lat": 14.4772500,
+  "lon": 108.1986617,
+  "tags": {
+    "amenity": "place_of_worship",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "node",
+  "id": 14152843101,
+  "lat": 14.4923330,
+  "lon": 108.2247765,
+  "tags": {
+    "historic": "memorial"
+  }
+},
+{
+  "type": "node",
+  "id": 14152843201,
+  "lat": 14.5805365,
+  "lon": 108.2796179,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 14152844701,
+  "lat": 14.6011561,
+  "lon": 108.2975443,
+  "tags": {
+    "historic": "memorial",
+    "name": "Military Bulldozer"
+  }
+},
+{
+  "type": "node",
+  "id": 14152853401,
+  "lat": 14.5992316,
+  "lon": 108.2979966,
+  "tags": {
+    "historic": "wayside_shrine",
+    "religion": "christian"
+  }
+},
+{
+  "type": "node",
+  "id": 14152878501,
+  "lat": 14.6050923,
+  "lon": 108.2978090,
+  "tags": {
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "node",
+  "id": 14153092201,
+  "lat": 14.5059155,
+  "lon": 108.2448730,
+  "tags": {
+    "amenity": "restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 14156534001,
+  "lat": 14.1153963,
+  "lon": 107.9706421,
+  "tags": {
+    "amenity": "place_of_worship",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "node",
+  "id": 14159248826,
+  "lat": 13.9829065,
+  "lon": 108.0830655,
+  "tags": {
+    "artwork_type": "sculpture",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 14208229802,
+  "lat": 14.2989579,
+  "lon": 107.9967329,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Tịnh xá Khánh Hưng",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "node",
+  "id": 14233054764,
+  "lat": 14.1026297,
+  "lon": 107.9245213,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Chùa Phước Sơn",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "node",
+  "id": 14247237610,
+  "lat": 13.9799653,
+  "lon": 107.9986264,
+  "tags": {
+    "addr:city": "Pleiku",
+    "addr:housenumber": "9",
+    "addr:province": "Tỉnh Gia Lai",
+    "addr:street": "Hai Bà Trưng",
+    "name": "Tre Xanh Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 354299015,
+  "center": {
+    "lat": 14.6608747,
+    "lon": 107.8384196
+  },
+  "tags": {
+    "historic": "memorial",
+    "memorial": "war_memorial"
+  }
+},
+{
+  "type": "way",
+  "id": 354299465,
+  "center": {
+    "lat": 14.6610194,
+    "lon": 107.8384870
+  },
+  "tags": {
+    "historic": "tank"
+  }
+},
+{
+  "type": "way",
+  "id": 354299466,
+  "center": {
+    "lat": 14.6609605,
+    "lon": 107.8383368
+  },
+  "tags": {
+    "historic": "tank"
+  }
+},
+{
+  "type": "way",
+  "id": 354300466,
+  "center": {
+    "lat": 15.4389172,
+    "lon": 107.7927861
+  },
+  "tags": {
+    "building": "yes",
+    "name": "be chau giang",
+    "name:en": "Be Chau Giang Hotel",
+    "name:vi": "be chau giang",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 378921412,
+  "center": {
+    "lat": 14.6860960,
+    "lon": 107.5566329
+  },
+  "tags": {
+    "access": "no",
+    "area": "yes",
+    "foot": "permissive",
+    "highway": "pedestrian",
+    "name": "Việt Nam - Campuchia- Lào",
+    "name:ru": "Вьетнам - Камбоджа - Лаос",
+    "surface": "paved",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "way",
+  "id": 464462559,
+  "center": {
+    "lat": 14.3451155,
+    "lon": 108.0132280
+  },
+  "tags": {
+    "addr:street": "Nguyễn Huệ",
+    "alt_name": "Nhà thờ gỗ Kon Tum",
+    "alt_name:en": "Kon Tum Wooden Church",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "roman_catholic",
+    "diocese": "Kon Tum",
+    "name": "Nhà thờ chính tòa Kon Tum",
+    "name:en": "Kon Tum Cathedral",
+    "name:fr": "Cathédrale de Kon Tum",
+    "religion": "christian",
+    "wikipedia": "vi:Nhà thờ chính tòa Kon Tum"
+  }
+},
+{
+  "type": "way",
+  "id": 464462594,
+  "center": {
+    "lat": 14.3467749,
+    "lon": 108.0035764
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Hoang Van",
+    "source": "Bing 2016",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 464540150,
+  "center": {
+    "lat": 14.3458225,
+    "lon": 108.0025052
+  },
+  "tags": {
+    "name": "Hoàng Thịnh",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 464540151,
+  "center": {
+    "lat": 14.3455444,
+    "lon": 108.0013613
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Indochine Hotel",
+    "source": "Bing 2017",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 464560365,
+  "center": {
+    "lat": 14.3296383,
+    "lon": 108.0638301
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "roman_catholic",
+    "name": "Nhà thờ Kon K'Tu",
+    "name:en": "Kon K'tu Church",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 476311499,
+  "center": {
+    "lat": 14.3618710,
+    "lon": 108.0036291
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "public",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "way",
+  "id": 480675702,
+  "center": {
+    "lat": 14.3491098,
+    "lon": 108.0030687
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "building": "yes",
+    "name": "Chợ Lớn Kon Tum",
+    "name:en": "Kon Tum Market",
+    "name:fr": "Marché de Kon Tum"
+  }
+},
+{
+  "type": "way",
+  "id": 571547025,
+  "center": {
+    "lat": 14.6063063,
+    "lon": 108.2888809
+  },
+  "tags": {
+    "building": "yes",
+    "historic": "monument",
+    "name": "Đài liệt sĩ"
+  }
+},
+{
+  "type": "way",
+  "id": 571547035,
+  "center": {
+    "lat": 14.5909308,
+    "lon": 108.2882969
+  },
+  "tags": {
+    "historic": "monument",
+    "inscription": "Tổ quốc ghi công",
+    "name": "Đài Tổ quốc ghi công"
+  }
+},
+{
+  "type": "way",
+  "id": 637964710,
+  "center": {
+    "lat": 14.3491303,
+    "lon": 108.0030721
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Chợ Kon Tum"
+  }
+},
+{
+  "type": "way",
+  "id": 672575639,
+  "center": {
+    "lat": 13.9851748,
+    "lon": 108.0055534
+  },
+  "tags": {
+    "addr:housenumber": "21",
+    "addr:street": "Trần Hưng Đạo",
+    "building": "yes",
+    "name": "Bảo tàng Pleiku",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 672575880,
+  "center": {
+    "lat": 13.9859937,
+    "lon": 108.0060082
+  },
+  "tags": {
+    "addr:housenumber": "6",
+    "addr:province": "Gia Lai",
+    "addr:street": "Phan Đình Phùng",
+    "name": "Bảo tàng Hồ Chí Minh",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 689684113,
+  "center": {
+    "lat": 13.9805102,
+    "lon": 107.9883246
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Tịnh xá Ngọc Phúc",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "way",
+  "id": 690244813,
+  "center": {
+    "lat": 13.9692035,
+    "lon": 107.9893491
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Thánh thất Nguyên Bình",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "way",
+  "id": 836135428,
+  "center": {
+    "lat": 14.6011897,
+    "lon": 108.2978277
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "denomination": "roman_catholic",
+    "name": "Nhà thờ Đức Mẹ Măng Đen",
+    "name:en": "Our Lady of Mang Den Church",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 836135453,
+  "center": {
+    "lat": 14.6044900,
+    "lon": 108.2873397
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "building": "yes",
+    "name": "Chợ Kon Plông",
+    "name:en": "Kon Plong Market",
+    "name:id": "Pasar Kon Plong",
+    "name:zh": "公伯陇市场"
+  }
+},
+{
+  "type": "way",
+  "id": 874293662,
+  "center": {
+    "lat": 15.1502681,
+    "lon": 108.1224617
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1019040796,
+  "center": {
+    "lat": 13.9733996,
+    "lon": 108.0281570
+  },
+  "tags": {
+    "landuse": "commercial",
+    "name": "Bảo tàng Binh đoàn Tây Nguyên",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 1074561729,
+  "center": {
+    "lat": 13.9549614,
+    "lon": 108.0133469
+  },
+  "tags": {
+    "addr:city": "Pleiku",
+    "addr:district": "Trà Bá",
+    "addr:housenumber": "128",
+    "addr:postcode": "600000",
+    "addr:province": "Gia Lai",
+    "addr:street": "Lương Định Của",
+    "addr:subdistrict": "Tổ 2",
+    "amenity": "place_of_worship",
+    "building": "house",
+    "name": "Dream House"
+  }
+},
+{
+  "type": "way",
+  "id": 1148179691,
+  "center": {
+    "lat": 14.1289775,
+    "lon": 108.0546772
+  },
+  "tags": {
+    "area": "yes",
+    "name": "Núi lửa Chư Đang Ya",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "way",
+  "id": 1181242323,
+  "center": {
+    "lat": 15.3381287,
+    "lon": 108.2160618
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Chợ Bắc Trà My"
+  }
+},
+{
+  "type": "way",
+  "id": 1185338286,
+  "center": {
+    "lat": 14.3434951,
+    "lon": 107.9910138
+  },
+  "tags": {
+    "abandoned:amenity": "prison",
+    "name": "Ngục Kon Tum",
+    "name:en": "Kon Tum Prison",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 1185338287,
+  "center": {
+    "lat": 14.3437307,
+    "lon": 107.9906174
+  },
+  "tags": {
+    "building": "yes",
+    "historic": "building"
+  }
+},
+{
+  "type": "way",
+  "id": 1185338288,
+  "center": {
+    "lat": 14.3435231,
+    "lon": 107.9904431
+  },
+  "tags": {
+    "building": "yes",
+    "historic": "building"
+  }
+},
+{
+  "type": "way",
+  "id": 1185338289,
+  "center": {
+    "lat": 14.3432761,
+    "lon": 107.9904676
+  },
+  "tags": {
+    "building": "yes",
+    "historic": "building"
+  }
+},
+{
+  "type": "way",
+  "id": 1185338307,
+  "center": {
+    "lat": 14.3490936,
+    "lon": 108.0012666
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1185531170,
+  "center": {
+    "lat": 14.3595213,
+    "lon": 108.0214707
+  },
+  "tags": {
+    "addr:city": "Kon Tum",
+    "addr:housenumber": "250",
+    "addr:street": "Trần Văn Hai",
+    "addr:subdistrict": "Trường Chinh",
+    "amenity": "restaurant",
+    "building": "house",
+    "cuisine": "japanese",
+    "name": "MaMa Sushi"
+  }
+},
+{
+  "type": "way",
+  "id": 1207546645,
+  "center": {
+    "lat": 15.3721629,
+    "lon": 108.2505250
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1212348521,
+  "center": {
+    "lat": 14.3447348,
+    "lon": 108.0025304
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Indochine Luxury Kon Tum"
+  }
+},
+{
+  "type": "way",
+  "id": 1213005247,
+  "center": {
+    "lat": 14.4091268,
+    "lon": 108.4591875
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1213847508,
+  "center": {
+    "lat": 14.3533637,
+    "lon": 108.0207521
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Chợ Phường Thắng Lợi",
+    "name:en": "Thang Loi Ward Market"
+  }
+},
+{
+  "type": "way",
+  "id": 1214258881,
+  "center": {
+    "lat": 14.3454838,
+    "lon": 108.0020571
+  },
+  "tags": {
+    "amenity": "cafe",
+    "building": "yes",
+    "cuisine": "coffee_shop",
+    "name": "Indochine Coffee Kon Tum"
+  }
+},
+{
+  "type": "way",
+  "id": 1214258882,
+  "center": {
+    "lat": 14.3455222,
+    "lon": 108.0017667
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Indochine Palace"
+  }
+},
+{
+  "type": "way",
+  "id": 1215282306,
+  "center": {
+    "lat": 14.3377468,
+    "lon": 107.9933039
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Nguyen Trai ward market",
+    "name:vi": "Chợ phường Nguyễn Trãi"
+  }
+},
+{
+  "type": "way",
+  "id": 1241633641,
+  "center": {
+    "lat": 14.3650288,
+    "lon": 108.0172747
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Chợ hoa Xuân",
+    "name:en": "Tet flower market"
+  }
+},
+{
+  "type": "way",
+  "id": 1340586474,
+  "center": {
+    "lat": 13.9667882,
+    "lon": 107.8620032
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Tịnh xá Ngọc Lai",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "way",
+  "id": 1340589783,
+  "center": {
+    "lat": 13.9620697,
+    "lon": 107.8632903
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Hùng Hiền"
+  }
+},
+{
+  "type": "way",
+  "id": 1342055083,
+  "center": {
+    "lat": 13.9615409,
+    "lon": 107.8442545
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Nhà khách Ia Grai",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "way",
+  "id": 1342195685,
+  "center": {
+    "lat": 13.9705731,
+    "lon": 108.0157287
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Mường Thanh Gia Lai",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1342507957,
+  "center": {
+    "lat": 13.9601233,
+    "lon": 107.8493384
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Nhà rông",
+    "tourism": "alpine_hut"
+  }
+},
+{
+  "type": "way",
+  "id": 1387026074,
+  "center": {
+    "lat": 13.9716257,
+    "lon": 108.0142127
+  },
+  "tags": {
+    "area": "yes",
+    "artwork_type": "statue",
+    "name": "Tháp đá Bùng Binh Phù Đổng",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "way",
+  "id": 1495434259,
+  "center": {
+    "lat": 13.9737606,
+    "lon": 108.0007128
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Restaurant_NhaHangGalaxy Stories 5"
+  }
+},
+{
+  "type": "way",
+  "id": 1526289913,
+  "center": {
+    "lat": 13.9698307,
+    "lon": 108.0184471
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Khách sạn MeKong Gia Lai",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1526291303,
+  "center": {
+    "lat": 13.9646939,
+    "lon": 108.0173026
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Hoài Thương Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1526292806,
+  "center": {
+    "lat": 13.9635530,
+    "lon": 108.0204964
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Khách Sạn Minh Mạnh",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1526294472,
+  "center": {
+    "lat": 13.9799377,
+    "lon": 107.9992213
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Khách sạn Le Centre",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1526297449,
+  "center": {
+    "lat": 13.9726150,
+    "lon": 107.9889669
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Diora Hotel & Apartment",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1526301163,
+  "center": {
+    "lat": 13.9814365,
+    "lon": 108.0001951
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Khách Sạn Elisa",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1526302153,
+  "center": {
+    "lat": 13.9703644,
+    "lon": 107.9995838
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Pleiku Highlands Boutique Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1526304279,
+  "center": {
+    "lat": 13.9794191,
+    "lon": 108.0106361
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Highlight House Hotel & Coffee",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1526304707,
+  "center": {
+    "lat": 13.9786440,
+    "lon": 108.0112333
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Khách sạn Luxstay & Coffee",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1526305560,
+  "center": {
+    "lat": 13.9706025,
+    "lon": 108.0263913
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Thảo Ngân Pleiku Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "way",
+  "id": 1527608737,
+  "center": {
+    "lat": 14.3489588,
+    "lon": 108.0175028
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Nhà Hàng Prince"
+  }
+},
+{
+  "type": "way",
+  "id": 1527608738,
+  "center": {
+    "lat": 14.3487395,
+    "lon": 108.0173050
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Nẫu Kìa"
+  }
+},
+{
+  "type": "way",
+  "id": 1527610556,
+  "center": {
+    "lat": 14.3749552,
+    "lon": 108.0110585
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Nhà Hàng D'Villa Kon Tum"
+  }
+},
+{
+  "type": "way",
+  "id": 1527612724,
+  "center": {
+    "lat": 14.3513191,
+    "lon": 108.0184571
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Nhà Hàng Tiệc Cưới Thiên Hương"
+  }
+},
+{
+  "type": "way",
+  "id": 1527612725,
+  "center": {
+    "lat": 14.3511438,
+    "lon": 108.0183972
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Eros Palace"
+  }
+},
+{
+  "type": "way",
+  "id": 1527616420,
+  "center": {
+    "lat": 13.9742705,
+    "lon": 108.0031437
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Century Restaurant"
+  }
+},
+{
+  "type": "way",
+  "id": 1527617596,
+  "center": {
+    "lat": 13.9746394,
+    "lon": 108.0001277
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Nhà hàng Trầu Cau Hưng Long"
+  }
+},
+{
+  "type": "way",
+  "id": 1527619012,
+  "center": {
+    "lat": 14.0872962,
+    "lon": 107.8960163
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "building": "yes",
+    "name": "Trung Tâm Hội Nghị Tiệc Cưới Trung Hường"
+  }
+},
+{
+  "type": "way",
+  "id": 1527724675,
+  "center": {
+    "lat": 13.9806634,
+    "lon": 108.0828087
+  },
+  "tags": {
+    "name:en": "Dong Xanh Park",
+    "name:vi": "Cong Vien Dong Xanh",
+    "tourism": "theme_park"
+  }
+},
+{
+  "type": "way",
+  "id": 1530193368,
+  "center": {
+    "lat": 15.3307214,
+    "lon": 108.1481503
+  },
+  "tags": {
+    "highway": "service",
+    "lanes": "2",
+    "lit": "no",
+    "name": "Đường đỉnh đập Thuỷ điện Sông Tranh 2",
+    "sidewalk": "no",
+    "smoothness": "intermediate",
+    "surface": "paved",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "way",
+  "id": 1530193369,
+  "center": {
+    "lat": 15.3345315,
+    "lon": 108.1476641
+  },
+  "tags": {
+    "highway": "service",
+    "lanes": "2",
+    "lit": "no",
+    "sidewalk": "no",
+    "smoothness": "intermediate",
+    "surface": "paved",
+    "tourism": "attraction"
+  }
+},
+{
+  "type": "way",
+  "id": 1542839636,
+  "center": {
+    "lat": 14.0424810,
+    "lon": 108.2532249
+  },
+  "tags": {
+    "building": "yes",
+    "historic": "memorial",
+    "memorial": "war_memorial",
+    "name": "Đền tưởng niệm Trung đoàn Bộ binh 95"
+  }
+},
+{
+  "type": "way",
+  "id": 1556264022,
+  "center": {
+    "lat": 14.3909010,
+    "lon": 108.1142670
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 1556739144,
+  "center": {
+    "lat": 13.9893503,
+    "lon": 108.0852725
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "way",
+  "id": 1556739950,
+  "center": {
+    "lat": 13.9990292,
+    "lon": 108.1137832
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "religion": "buddhist"
+  }
+},
+{
+  "type": "way",
+  "id": 1561485978,
+  "center": {
+    "lat": 14.3749581,
+    "lon": 107.9504506
+  },
+  "tags": {
+    "amenity": "marketplace",
+    "name": "Chợ phiên xã Ngọk Bay"
+  }
+},
+{
+  "type": "way",
+  "id": 1563678742,
+  "center": {
+    "lat": 14.1056796,
+    "lon": 107.9301889
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Nhà thờ Ninh Đức",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 1564814503,
+  "center": {
+    "lat": 13.9799601,
+    "lon": 107.9986488
+  },
+  "tags": {
+    "addr:city": "Pleiku",
+    "addr:housenumber": "9",
+    "addr:province": "Tỉnh Gia Lai",
+    "addr:street": "Hai Bà Trưng",
+    "addr:subdistrict": "Phường Diên Hồng",
+    "building": "yes",
+    "name": "Tre Xanh Hotel",
+    "tourism": "hotel"
+  }
+},
+{
+  "type": "relation",
+  "id": 16405180,
+  "center": {
+    "lat": 15.3402275,
+    "lon": 108.2217314
+  },
+  "tags": {
+    "tourism": "hotel",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 21117126,
+  "center": {
+    "lat": 14.6045041,
+    "lon": 108.2491936
+  },
+  "tags": {
+    "amenity": "cafe",
+    "indoor_seating": "yes",
+    "landuse": "retail",
+    "name": "Mộc Thiên Xanh",
+    "outdoor_seating": "yes",
+    "phone": "0373 529 758",
+    "tourism": "guest_house",
+    "type": "multipolygon"
+  }
+}
+
+  ]
+}
