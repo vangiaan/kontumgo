@@ -161,6 +161,8 @@ class DongDiaDiem extends StatelessWidget {
                 cao: 76,
                 rong: 76,
                 bo: 10,
+                anh: d.anh,
+                toi: so != null,
                 con: so == null
                     ? null
                     : Center(

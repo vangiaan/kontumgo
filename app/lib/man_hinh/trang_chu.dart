@@ -211,6 +211,7 @@ class TheLon extends StatelessWidget {
                 nhom: d.nhom,
                 cao: 124,
                 rong: double.infinity,
+                anh: d.anh,
                 con: Positioned(
                   left: 10,
                   bottom: 10,

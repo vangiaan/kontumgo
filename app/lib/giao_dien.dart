@@ -139,20 +139,49 @@ class OAnh extends StatelessWidget {
   final double? cao, rong;
   final double bo;
   final Widget? con;
-  const OAnh({super.key, required this.nhom, this.cao, this.rong, this.bo = 0, this.con});
+  final String? anh, ghiCong; // ảnh thật (assets) + dòng ghi công; không có / lỗi -> nền màu theo nhóm
+  final bool toi; // phủ tối ảnh để chữ trắng trong `con` dễ đọc
+  const OAnh(
+      {super.key, required this.nhom, this.cao, this.rong, this.bo = 0, this.con, this.anh, this.ghiCong, this.toi = false});
 
   @override
   Widget build(BuildContext context) {
     final n = Nhom.cua(nhom);
+    final bieuTuong = Center(child: Icon(n.icon, color: Colors.white.withValues(alpha: 0.35), size: (cao ?? 76) * 0.42));
     return Container(
       height: cao,
       width: rong,
+      clipBehavior: anh == null ? Clip.none : Clip.antiAlias,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(bo),
         gradient: LinearGradient(begin: Alignment.topLeft, end: Alignment.bottomRight, colors: n.mauNen),
       ),
       child: Stack(children: [
-        Center(child: Icon(n.icon, color: Colors.white.withValues(alpha: 0.35), size: (cao ?? 76) * 0.42)),
+        if (anh == null)
+          bieuTuong
+        else ...[
+          Positioned.fill(
+            child: Image.asset(anh!,
+                fit: BoxFit.cover,
+                cacheWidth: rong != null && rong!.isFinite ? (rong! * 3).round() : null,
+                errorBuilder: (_, _, _) => bieuTuong),
+          ),
+          if (toi) const Positioned.fill(child: ColoredBox(color: Colors.black38)),
+          if (ghiCong != null)
+            Positioned(
+              right: 0,
+              bottom: 0,
+              child: Container(
+                constraints: const BoxConstraints(maxWidth: 300),
+                padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                color: Colors.black45,
+                child: Text(ghiCong!,
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                    style: const TextStyle(fontSize: 9.5, color: Colors.white)),
+              ),
+            ),
+        ],
         ?con,
       ]),
     );

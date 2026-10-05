@@ -104,10 +104,21 @@ def main():
                    "nguon": "Wikipedia tiếng Việt: " + bai, "da_kiem": False})
     thieu = [t for t in BIEN_TAP if not any(d["ten"] == t for d in ra)]
     ra.sort(key=lambda d: (d["noi_bat"] is None, d["noi_bat"] or 0, d["ten"]))
+    # Ảnh do lay_anh_commons.py tải về: chỉ gắn khi tệp ảnh có thật trong app/assets/anh/.
+    f_gc = GOC / "du_lieu" / "anh_commons.json"
+    ghi_cong = json.loads(f_gc.read_text(encoding="utf-8")) if f_gc.exists() else {}
+    for d in ra:
+        gc = ghi_cong.get(d["id"])
+        if gc and (GOC / "app" / "assets" / "anh" / f"{d['id']}.jpg").exists():
+            d["anh"] = f"assets/anh/{d['id']}.jpg"
+            d["anh_ghi_cong"] = f"Ảnh: {gc['tac_gia'][:60]} · {gc['giay_phep']} · Wikimedia Commons"
+    ghi_nguon = "© Những người đóng góp OpenStreetMap; Wikipedia tiếng Việt (CC BY-SA)"
+    if any(d.get("anh") for d in ra):
+        ghi_nguon += "; ảnh: Wikimedia Commons (tác giả, giấy phép ghi dưới từng ảnh)"
     dich = GOC / "app" / "assets" / "du_lieu" / "dia_diem.json"
     dich.parent.mkdir(parents=True, exist_ok=True)
-    dich.write_text(json.dumps({"phien_ban": 1, "ghi_nguon": "© Những người đóng góp OpenStreetMap; Wikipedia tiếng Việt (CC BY-SA)", "dia_diem": ra}, ensure_ascii=False, indent=1), encoding="utf-8")
-    print("tong", len(ra), "| noi bat", sum(1 for d in ra if d["noi_bat"]), "| thieu bien tap:", thieu)
+    dich.write_text(json.dumps({"phien_ban": 1, "ghi_nguon": ghi_nguon, "dia_diem": ra}, ensure_ascii=False, indent=1), encoding="utf-8")
+    print("tong", len(ra), "| co anh", sum(1 for d in ra if d.get("anh")), "| noi bat", sum(1 for d in ra if d["noi_bat"]), "| thieu bien tap:", thieu)
     for v in ("kontum", "mangden", "khac"):
         print(v, {n: sum(1 for d in ra if d["vung"] == v and d["nhom"] == n) for n in sorted({d["nhom"] for d in ra})})
 

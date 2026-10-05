@@ -29,6 +29,8 @@ class ChiTiet extends StatelessWidget {
           nhom: d.nhom,
           cao: 230,
           rong: double.infinity,
+          anh: d.anh,
+          ghiCong: d.anhGhiCong,
           con: Positioned(
             top: MediaQuery.of(context).padding.top + 8,
             left: 14,

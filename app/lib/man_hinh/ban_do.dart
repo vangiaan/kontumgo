@@ -161,7 +161,7 @@ class _BanDoState extends State<BanDo> {
               child: Padding(
                 padding: const EdgeInsets.all(12),
                 child: Row(children: [
-                  OAnh(nhom: _chon!.nhom, cao: 52, rong: 52, bo: 10),
+                  OAnh(nhom: _chon!.nhom, cao: 52, rong: 52, bo: 10, anh: _chon!.anh),
                   const SizedBox(width: 12),
                   Expanded(
                     child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [

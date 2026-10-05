@@ -9,6 +9,7 @@ class DiaDiem {
   final double lat, lon;
   final String? moTa, dienThoai, gio, diaChi;
   final int? noiBat;
+  final String? anh, anhGhiCong; // ảnh trong assets/anh/ + dòng ghi công tác giả, giấy phép
 
   const DiaDiem({
     required this.id,
@@ -22,6 +23,8 @@ class DiaDiem {
     this.gio,
     this.diaChi,
     this.noiBat,
+    this.anh,
+    this.anhGhiCong,
   });
 
   factory DiaDiem.tuJson(Map<String, dynamic> j) => DiaDiem(
@@ -36,6 +39,8 @@ class DiaDiem {
         gio: j['gio'] as String?,
         diaChi: j['dia_chi'] as String?,
         noiBat: j['noi_bat'] as int?,
+        anh: j['anh'] as String?,
+        anhGhiCong: j['anh_ghi_cong'] as String?,
       );
 }
 
