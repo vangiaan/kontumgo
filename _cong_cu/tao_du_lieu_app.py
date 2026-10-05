@@ -22,6 +22,7 @@ DOI_TEN = {
     "Đức mẹ Măng Đen": "Tượng Đức Mẹ Măng Đen",
     "Hồ Đắk Ke": "Hồ Đăk Ke",
     "Nhà Rông Kon Pring": "Làng Kon Pring",
+    "CHÙA THIỀN LÂM, TT. Đắk Tô, Đắk Tô, Kon Tum, Vietnam": "Chùa Thiền Lâm",
 }
 # tên (sau khi đổi) -> (nhóm ghi đè, thứ tự nổi bật, mô tả nháp)
 BIEN_TAP = {

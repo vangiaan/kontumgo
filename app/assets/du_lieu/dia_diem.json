@@ -468,21 +468,6 @@
    "da_kiem": false
   },
   {
-   "id": "chua-thien-lam-tt-dak-to-dak-to-kon-tum-vietnam",
-   "ten": "CHÙA THIỀN LÂM, TT. Đắk Tô, Đắk Tô, Kon Tum, Vietnam",
-   "nhom": "tam-linh",
-   "vung": "khac",
-   "lat": 14.627043,
-   "lon": 107.84905,
-   "mo_ta": null,
-   "noi_bat": null,
-   "dien_thoai": null,
-   "gio": null,
-   "dia_chi": null,
-   "nguon": "OpenStreetMap node/6813401785",
-   "da_kiem": false
-  },
-  {
    "id": "cafe-an-bang",
    "ten": "Cafe An Bang",
    "nhom": "an-uong",
@@ -555,6 +540,21 @@
    "gio": null,
    "dia_chi": null,
    "nguon": "OpenStreetMap node/12588871297",
+   "da_kiem": false
+  },
+  {
+   "id": "chua-thien-lam",
+   "ten": "Chùa Thiền Lâm",
+   "nhom": "tam-linh",
+   "vung": "khac",
+   "lat": 14.627043,
+   "lon": 107.84905,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/6813401785",
    "da_kiem": false
   },
   {
