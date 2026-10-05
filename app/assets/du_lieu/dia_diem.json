@@ -318,6 +318,21 @@
    "da_kiem": false
   },
   {
+   "id": "bo-ho",
+   "ten": "Bo ho",
+   "nhom": "an-uong",
+   "vung": "khac",
+   "lat": 14.408993,
+   "lon": 107.793128,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/6231564185",
+   "da_kiem": false
+  },
+  {
    "id": "ban-xeo-co-hoa",
    "ten": "Bán Xèo Cô Hòa",
    "nhom": "an-uong",
@@ -375,6 +390,21 @@
    "gio": null,
    "dia_chi": "209 Lê Hồng Phong",
    "nguon": "OpenStreetMap node/12590144867",
+   "da_kiem": false
+  },
+  {
+   "id": "bich-ha",
+   "ten": "Bích Hà",
+   "nhom": "an-uong",
+   "vung": "khac",
+   "lat": 15.088835,
+   "lon": 107.735592,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/5477741027",
    "da_kiem": false
   },
   {
@@ -438,6 +468,21 @@
    "da_kiem": false
   },
   {
+   "id": "chua-thien-lam-tt-dak-to-dak-to-kon-tum-vietnam",
+   "ten": "CHÙA THIỀN LÂM, TT. Đắk Tô, Đắk Tô, Kon Tum, Vietnam",
+   "nhom": "tam-linh",
+   "vung": "khac",
+   "lat": 14.627043,
+   "lon": 107.84905,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/6813401785",
+   "da_kiem": false
+  },
+  {
    "id": "cafe-an-bang",
    "ten": "Cafe An Bang",
    "nhom": "an-uong",
@@ -450,6 +495,36 @@
    "gio": null,
    "dia_chi": null,
    "nguon": "OpenStreetMap node/11638253369",
+   "da_kiem": false
+  },
+  {
+   "id": "chua-khanh-phuoc",
+   "ten": "Chua Khanh Phuoc",
+   "nhom": "tam-linh",
+   "vung": "khac",
+   "lat": 14.474218,
+   "lon": 107.935832,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/7691844288",
+   "da_kiem": false
+  },
+  {
+   "id": "chua-thapky-quang",
+   "ten": "Chua Thapky Quang",
+   "nhom": "tam-linh",
+   "vung": "khac",
+   "lat": 14.547751,
+   "lon": 107.919807,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/12777715701",
    "da_kiem": false
   },
   {
@@ -543,6 +618,21 @@
    "da_kiem": false
   },
   {
+   "id": "cho-sa-thay",
+   "ten": "Chợ Sa Thầy",
+   "nhom": "cho",
+   "vung": "khac",
+   "lat": 14.408032,
+   "lon": 107.797768,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/5489021732",
+   "da_kiem": false
+  },
+  {
    "id": "cho-hoa-xuan",
    "ten": "Chợ hoa Xuân",
    "nhom": "cho",
@@ -585,6 +675,51 @@
    "gio": null,
    "dia_chi": null,
    "nguon": "OpenStreetMap node/11259490548",
+   "da_kiem": false
+  },
+  {
+   "id": "coffe-lake-view",
+   "ten": "Coffe lake view",
+   "nhom": "an-uong",
+   "vung": "khac",
+   "lat": 14.408726,
+   "lon": 107.791713,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/6231557086",
+   "da_kiem": false
+  },
+  {
+   "id": "coffee-ship-tan-noi",
+   "ten": "Coffee «Ship Tán Nói»",
+   "nhom": "an-uong",
+   "vung": "khac",
+   "lat": 14.70293,
+   "lon": 107.56524,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": "24/7",
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/11374773879",
+   "da_kiem": false
+  },
+  {
+   "id": "com-binh-danh",
+   "ten": "Com Binh Danh",
+   "nhom": "an-uong",
+   "vung": "khac",
+   "lat": 14.497148,
+   "lon": 107.923439,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/13760094801",
    "da_kiem": false
   },
   {
@@ -723,6 +858,51 @@
    "da_kiem": false
   },
   {
+   "id": "dl-htx-hai-tinh",
+   "ten": "Dl htx hải tình",
+   "nhom": "an-uong",
+   "vung": "khac",
+   "lat": 14.529746,
+   "lon": 107.942304,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/5941662185",
+   "da_kiem": false
+  },
+  {
+   "id": "dl-halo",
+   "ten": "Dl hàlo",
+   "nhom": "an-uong",
+   "vung": "khac",
+   "lat": 14.664839,
+   "lon": 107.838438,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/5941662585",
+   "da_kiem": false
+  },
+  {
+   "id": "donla-coffe-and-restaurant",
+   "ten": "Donla coffe and restaurant",
+   "nhom": "an-uong",
+   "vung": "khac",
+   "lat": 14.706331,
+   "lon": 107.550705,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/12011701244",
+   "da_kiem": false
+  },
+  {
    "id": "eros-palace",
    "ten": "Eros Palace",
    "nhom": "an-uong",
@@ -795,6 +975,21 @@
    "gio": null,
    "dia_chi": null,
    "nguon": "OpenStreetMap node/11245967118",
+   "da_kiem": false
+  },
+  {
+   "id": "gia-hung",
+   "ten": "Gia Hưng",
+   "nhom": "luu-tru",
+   "vung": "khac",
+   "lat": 15.070867,
+   "lon": 107.741978,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/4597779090",
    "da_kiem": false
   },
   {
@@ -1053,6 +1248,36 @@
    "da_kiem": false
   },
   {
+   "id": "hoang-tran",
+   "ten": "Hoàng Trần",
+   "nhom": "an-uong",
+   "vung": "khac",
+   "lat": 14.506877,
+   "lon": 107.92298,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": "209 Hùng Vương",
+   "nguon": "OpenStreetMap node/12598069686",
+   "da_kiem": false
+  },
+  {
+   "id": "ha-thanh",
+   "ten": "Hà Thành",
+   "nhom": "luu-tru",
+   "vung": "khac",
+   "lat": 14.708374,
+   "lon": 107.691589,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/6438284383",
+   "da_kiem": false
+  },
+  {
    "id": "hanh-cap",
    "ten": "Hạnh Cấp",
    "nhom": "an-uong",
@@ -1200,6 +1425,21 @@
    "gio": null,
    "dia_chi": null,
    "nguon": "OpenStreetMap node/3537798320",
+   "da_kiem": false
+  },
+  {
+   "id": "khach-san-dong-duong",
+   "ten": "Khách Sạn Đông Dương",
+   "nhom": "luu-tru",
+   "vung": "khac",
+   "lat": 14.706973,
+   "lon": 107.690323,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": "+84603832266",
+   "gio": null,
+   "dia_chi": "879 Hùng Vương",
+   "nguon": "OpenStreetMap node/4538115589",
    "da_kiem": false
   },
   {
@@ -1368,6 +1608,21 @@
    "da_kiem": false
   },
   {
+   "id": "my-coffee",
+   "ten": "My Coffee",
+   "nhom": "an-uong",
+   "vung": "khac",
+   "lat": 14.40071,
+   "lon": 107.797636,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": "64 Trường Chinh",
+   "nguon": "OpenStreetMap node/12598042541",
+   "da_kiem": false
+  },
+  {
    "id": "mang-diang-boutique-hotel",
    "ten": "Măng Diang Boutique Hotel",
    "nhom": "luu-tru",
@@ -1413,6 +1668,21 @@
    "da_kiem": false
   },
   {
+   "id": "nam-phat-hotel",
+   "ten": "Nam Phat Hotel",
+   "nhom": "luu-tru",
+   "vung": "khac",
+   "lat": 14.742264,
+   "lon": 107.478816,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/4710329566",
+   "da_kiem": false
+  },
+  {
    "id": "nghia-chay",
    "ten": "Nghia Chay",
    "nhom": "an-uong",
@@ -1425,6 +1695,36 @@
    "gio": null,
    "dia_chi": "12 Le Loi",
    "nguon": "OpenStreetMap node/4585727658",
+   "da_kiem": false
+  },
+  {
+   "id": "ngoc-hoi-hotel",
+   "ten": "Ngoc Hội Hotel",
+   "nhom": "luu-tru",
+   "vung": "khac",
+   "lat": 14.706926,
+   "lon": 107.684881,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": "+84606268686",
+   "gio": "24/7",
+   "dia_chi": "Quốc lộ 14",
+   "nguon": "OpenStreetMap node/5319279221",
+   "da_kiem": false
+  },
+  {
+   "id": "nga-ba-dong-duong",
+   "ten": "Ngã ba Đông Dương",
+   "nhom": "di-tich",
+   "vung": "khac",
+   "lat": 14.686098,
+   "lon": 107.556628,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/3490016273",
    "da_kiem": false
   },
   {
@@ -1470,6 +1770,21 @@
    "gio": null,
    "dia_chi": null,
    "nguon": "OpenStreetMap node/11245967231",
+   "da_kiem": false
+  },
+  {
+   "id": "nha-khach-huyen-sa-thay",
+   "ten": "Nhà khách huyện Sa Thầy",
+   "nhom": "luu-tru",
+   "vung": "khac",
+   "lat": 14.410729,
+   "lon": 107.79238,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/5489021733",
    "da_kiem": false
   },
   {
@@ -1578,6 +1893,36 @@
    "da_kiem": false
   },
   {
+   "id": "nui-ngok-hoi",
+   "ten": "Núi Ngok Hồi",
+   "nhom": "canh-dep",
+   "vung": "khac",
+   "lat": 14.684298,
+   "lon": 107.61117,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/11637238532",
+   "da_kiem": false
+  },
+  {
+   "id": "nui-ngok-long",
+   "ten": "Núi Ngok Long",
+   "nhom": "canh-dep",
+   "vung": "khac",
+   "lat": 14.682046,
+   "lon": 107.873421,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/4729243377",
+   "da_kiem": false
+  },
+  {
    "id": "nui-ngok-ro",
    "ten": "Núi Ngok Rô",
    "nhom": "canh-dep",
@@ -1635,6 +1980,51 @@
    "gio": null,
    "dia_chi": null,
    "nguon": "OpenStreetMap node/11250446698",
+   "da_kiem": false
+  },
+  {
+   "id": "phu-gia",
+   "ten": "Phu Gia",
+   "nhom": "luu-tru",
+   "vung": "khac",
+   "lat": 14.644134,
+   "lon": 107.845193,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/4773432054",
+   "da_kiem": false
+  },
+  {
+   "id": "phu-phat-hotel",
+   "ten": "Phú Phát Hotel",
+   "nhom": "luu-tru",
+   "vung": "khac",
+   "lat": 14.705104,
+   "lon": 107.689982,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": "0606535678",
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/5717996722",
+   "da_kiem": false
+  },
+  {
+   "id": "phuong-lam-hotel",
+   "ten": "Phúơng Lâm Hotel",
+   "nhom": "luu-tru",
+   "vung": "khac",
+   "lat": 14.708064,
+   "lon": 107.691798,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/11576025569",
    "da_kiem": false
   },
   {
@@ -1698,6 +2088,21 @@
    "da_kiem": false
   },
   {
+   "id": "quynh-tho",
+   "ten": "Quynh Tho",
+   "nhom": "an-uong",
+   "vung": "khac",
+   "lat": 15.091069,
+   "lon": 107.738875,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/4800111322",
+   "da_kiem": false
+  },
+  {
    "id": "quan-07",
    "ten": "Quán 07",
    "nhom": "an-uong",
@@ -1755,6 +2160,21 @@
    "gio": null,
    "dia_chi": null,
    "nguon": "OpenStreetMap node/5492765364",
+   "da_kiem": false
+  },
+  {
+   "id": "quan-trang",
+   "ten": "Quán Trang",
+   "nhom": "an-uong",
+   "vung": "khac",
+   "lat": 14.705493,
+   "lon": 107.68916,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/5491082721",
    "da_kiem": false
   },
   {
@@ -1878,6 +2298,36 @@
    "da_kiem": false
   },
   {
+   "id": "tay-nguyen",
+   "ten": "Tay Nguyen",
+   "nhom": "luu-tru",
+   "vung": "khac",
+   "lat": 15.090476,
+   "lon": 107.736763,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/4783838926",
+   "da_kiem": false
+  },
+  {
+   "id": "tay-nguyen-guesthouse",
+   "ten": "Tay Nguyen Guesthouse",
+   "nhom": "luu-tru",
+   "vung": "khac",
+   "lat": 15.092251,
+   "lon": 107.74112,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": "14a Dak Pet",
+   "nguon": "OpenStreetMap node/5474419727",
+   "da_kiem": false
+  },
+  {
    "id": "tay-nguyen-hotel",
    "ten": "Tay Nguyen Hotel",
    "nhom": "luu-tru",
@@ -1890,6 +2340,21 @@
    "gio": null,
    "dia_chi": null,
    "nguon": "OpenStreetMap node/4596569718",
+   "da_kiem": false
+  },
+  {
+   "id": "tea-house",
+   "ten": "Tea House",
+   "nhom": "an-uong",
+   "vung": "khac",
+   "lat": 14.705682,
+   "lon": 107.692329,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/13232254201",
    "da_kiem": false
   },
   {
@@ -1953,6 +2418,21 @@
    "da_kiem": false
   },
   {
+   "id": "tuan-lan-hotel",
+   "ten": "Tuan Lan Hotel",
+   "nhom": "luu-tru",
+   "vung": "khac",
+   "lat": 15.080358,
+   "lon": 107.738543,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/4615984889",
+   "da_kiem": false
+  },
+  {
    "id": "tinh-xa-khanh-hung",
    "ten": "Tịnh xá Khánh Hưng",
    "nhom": "tam-linh",
@@ -2013,6 +2493,21 @@
    "da_kiem": false
   },
   {
+   "id": "chien-thang-dac-to-tan-canh",
+   "ten": "chiến thắng Đắc Tô - Tân Cảnh",
+   "nhom": "canh-dep",
+   "vung": "khac",
+   "lat": 14.719472,
+   "lon": 107.837702,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/1621178555",
+   "da_kiem": false
+  },
+  {
    "id": "com-chay-84",
    "ten": "com chay 84",
    "nhom": "an-uong",
@@ -2058,6 +2553,21 @@
    "da_kiem": false
   },
   {
+   "id": "am-thuc-viet",
+   "ten": "Âm Thưc Việt",
+   "nhom": "an-uong",
+   "vung": "khac",
+   "lat": 14.705384,
+   "lon": 107.688124,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": "0905891899",
+   "gio": null,
+   "dia_chi": "80 Hoàng Thị Loan",
+   "nguon": "OpenStreetMap node/5183397022",
+   "da_kiem": false
+  },
+  {
    "id": "dien-thanh-mau",
    "ten": "Điện Thánh Mẫu",
    "nhom": "tam-linh",
@@ -2100,6 +2610,21 @@
    "gio": null,
    "dia_chi": null,
    "nguon": "Wikipedia tiếng Việt: Đèo Măng Đen",
+   "da_kiem": false
+  },
+  {
+   "id": "doi-tron",
+   "ten": "Đồi Tròn",
+   "nhom": "canh-dep",
+   "vung": "khac",
+   "lat": 14.686048,
+   "lon": 107.556588,
+   "mo_ta": null,
+   "noi_bat": null,
+   "dien_thoai": null,
+   "gio": null,
+   "dia_chi": null,
+   "nguon": "OpenStreetMap node/3822848446",
    "da_kiem": false
   },
   {

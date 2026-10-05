@@ -12,7 +12,9 @@ sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 GOC = pathlib.Path(__file__).resolve().parent.parent
 
 BO = {"đường nhỏ khó đi", "Military Bulldozer", "Highland Eco Tours", "Jollibee", "Banh", "Vong", "Lynn",
-      "Nhà Hàng Tiệc Cưới Thiên Hương", "Thien Huong Wedding Restaurant", "Đài liệt sĩ", "Kon Tum Martyrs Cemetery"}
+      "Nhà Hàng Tiệc Cưới Thiên Hương", "Thien Huong Wedding Restaurant", "Đài liệt sĩ", "Kon Tum Martyrs Cemetery",
+      # tên chung chung / không phải địa điểm (vùng thị trấn huyện, thêm 05/10/2026)
+      "Bảng Giá", "Cả fe", "Coffee", "Road 14C", "Church", "Việt Nam - Campuchia- Lào"}
 DOI_TEN = {
     "Nhà thờ chính tòa Kon Tum": "Nhà thờ Gỗ Kon Tum",
     "Tòa giám mục Kon Tum - Chủng viện thừa sai": "Toà Giám mục Kon Tum",
